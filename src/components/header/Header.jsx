@@ -1,3 +1,4 @@
+import logo from '../../assets/logo.png'
 import "./Header.css";
 
 export function Header() {
@@ -24,7 +25,7 @@ export function Header() {
           </div>
         </div>
         <div className="midleLine">
-          <img src="./img/logo.png" alt="logo" />
+          <img src={logo} alt="logo" />
           <h2>Turite klausimu skambinkite +37065584554</h2>
         </div>
         <div className="bottomLine">
@@ -45,6 +46,14 @@ export function Header() {
           </div>
         </div>
       </nav>
+      <div className="mobileHeader">
+            <a className="line1" href="+37065073547">Turite klausimu? +370 650 73547</a>
+            <div className="line2">
+                <img className="logo-img" src={logo} alt="logo"/>
+                <h2>Neringos Siuvimo Studija</h2>
+            </div>
+            
+        </div>
     </header>
   );
 }

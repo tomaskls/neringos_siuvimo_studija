@@ -1,11 +1,15 @@
+import { About } from "../about/About"
 import "./Main.css"
 
 export function Main() {
     return (
-        <main>
-            <div className="agurkas"> agurkas</div>
+        <main className="merriweather-regular">
+            <div className="mainContainer">
+                <About />
 
-    </main>
+            </div>
+
+        </main>
     )
-    
+
 }

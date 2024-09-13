@@ -1,10 +1,66 @@
-body,
-body * {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
 
-body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-Bold.ttf);
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Merriweather", serif;
+  src: url(./assets/fonts/Merriweather/Merriweather-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+.merriweather-regular {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-style: normal;
 }
