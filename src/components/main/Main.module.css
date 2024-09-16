@@ -7,12 +7,17 @@
 @media (max-width:760px) {
     .mainContainer{
         width: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
     }
-    .merriweatherRegular {
+    /* .merriweatherRegular {
         font-family: 'Merriweather', serif;
         font-weight: 400;
-        font-style: normal;
-    }
+        font-style: italic;
+    } */
     
 }
 

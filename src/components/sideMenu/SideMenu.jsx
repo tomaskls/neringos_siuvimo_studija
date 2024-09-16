@@ -68,13 +68,13 @@ export const SidebarMenu = () => {
           <ul>
             <li>
               <Scissors />
-              <a href="#" onClick={closeMenu}>Pagrindinis</a></li>
+              <a href="#about" onClick={closeMenu}>Pagrindinis</a></li>
             <li>
               <Scissors />
-              <a href="#naujiena" onClick={closeMenu}>Naujiena!!!</a></li>
+              <a href="#new" onClick={closeMenu}>Naujiena!!!</a></li>
             <li>
               <Scissors />
-              <a href="#" onClick={closeMenu}>Taisymas</a></li>
+              <a href="#repair" onClick={closeMenu}>Taisymas</a></li>
             <li>
               <Scissors />
               <a href="#" onClick={closeMenu}>Siuvimas</a></li>

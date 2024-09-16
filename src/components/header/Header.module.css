@@ -2,6 +2,12 @@
     .desktopHeader{
 display: none;
     }
+   
+    .sticky{
+        position: fixed;
+        top: 0; 
+        width: 100%;  
+    }
     .line1{
         display: flex;
         align-items: center;
@@ -14,7 +20,7 @@ display: none;
         font-size: 1.2em;
         text-decoration: none;
         line-height: 1.5;
-    }
+          }
     .line2{
         display: flex;
         align-items: center;
@@ -22,11 +28,15 @@ display: none;
         gap: 5px;
         height: 60px;
         background-color: white;
+
     }
     .logoImg{
         width: 50px;
         height: 50px;
     } 
+    .icon{
+        display: none;
+    }
 
 }
 @media (min-width:761px) {

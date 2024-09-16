@@ -5,9 +5,11 @@ import { SidebarMenu } from "./components/sideMenu/SideMenu"
 export function App() {
   return (
     <>
-    <Header/>
-    <SidebarMenu/>
-    <Main/>
+      <Header />
+
+      <SidebarMenu />
+
+      <Main />
     </>
   )
 }

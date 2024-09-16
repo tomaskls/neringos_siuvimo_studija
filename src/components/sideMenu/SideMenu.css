@@ -7,10 +7,10 @@
 
 .sidebar-toggle {
   position: fixed;
-  top: 2.45rem;
-  right: 0.5rem;
+  top: 3rem;
+  right: 0.3rem;
   z-index: 1;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   background-color: white;
   color: black;
   border-radius: 0.375rem;
