@@ -1,11 +1,16 @@
 import { About } from "../about/About"
-import "./Main.css"
+import { New } from '../new_product/New'
+import { Repair } from "../repair/Repair"
+import style from './Main.module.css'
 
 export function Main() {
     return (
-        <main className="merriweather-regular">
-            <div className="mainContainer">
+        <main className={style.merriweatherRegular}>
+            <div className={style.mainContainer}>
                 <About />
+                <New />
+                <Repair />
+
 
             </div>
 

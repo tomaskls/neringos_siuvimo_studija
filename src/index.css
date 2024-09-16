@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: rgba(205, 140, 140, 0.323);
+
+}
 @font-face {
   font-family: "Merriweather", serif;
   src: url(./assets/fonts/Merriweather/Merriweather-Light.ttf);

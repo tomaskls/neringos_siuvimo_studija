@@ -1,55 +1,55 @@
 import logo from '../../assets/logo.png'
-import "./Header.css";
+import style from './Header.module.css';
 
 export function Header() {
   return (
-    <header>
-      <nav className="desktopHeader">
-        <div className="topLine">
-          <div className="navTop">
-            <a className="navTopLink" href="#">
+    <header className={style.merriweatherRegular}>
+        <nav className={style.desktopHeader}>
+        <div className={style.topLine}>
+          <div className={style.navTop}>
+            <a className={style.navTopLink} href="#">
               Pagrindinis
             </a>
-            <a className="navTopLink" href="#">
+            <a className={style.navTopLink} href="#">
               Galerija
             </a>
-            <a className="navTopLink" href="#">
+            <a className={style.navTopLink} href="#">
               Paslaugos
             </a>
-            <a className="navTopLink" href="#">
+            <a className={style.navTopLink} href="#">
               D.U.K.
             </a>
-            <a className="navTopLink" href="#">
+            <a className={style.navTopLink} href="#">
               Kontaktai
             </a>
           </div>
         </div>
-        <div className="midleLine">
+        <div className={style.midleLine}>
           <img src={logo} alt="logo" />
           <h2>Turite klausimu skambinkite +37065584554</h2>
         </div>
-        <div className="bottomLine">
-          <div className="navBottom">
-            <a className="navBottomLink" href="#kolekcija">
+        <div className={style.bottomLine}>
+        <div className={style.navBottom}>
+            <a className={style.navBottomLink} href="#kolekcija">
               Naujiena !!!
             </a>
-            <a className="navBottomLink" href="#">
+            <a className={style.navBottomLink} href="#">
               Modeliavimas
             </a>
-            <a className="navBottomLink" href="#">
+            <a className={style.navBottomLink} href="#">
               {" "}
               Siuvimas
             </a>
-            <a className="navBottomLink" href="#">
+            <a className={style.navBottomLink} href="#">
               Taisymas
             </a>
           </div>
         </div>
       </nav>
-      <div className="mobileHeader">
-            <a className="line1" href="+37065073547">Turite klausimu? +370 650 73547</a>
-            <div className="line2">
-                <img className="logo-img" src={logo} alt="logo"/>
+      <div className={style.mobileHeader}>
+            <a className={style.line1} href="+37065073547">Turite klausimu? +370 650 73547</a>
+            <div className={style.line2}>
+                <img className={style.logoImg} src={logo} alt="logo"/>
                 <h2>Neringos Siuvimo Studija</h2>
             </div>
             

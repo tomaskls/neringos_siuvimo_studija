@@ -1,0 +1,16 @@
+@media (max-width:760px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        background-color: rgb(80, 5, 5);
+        color: white;
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+}
