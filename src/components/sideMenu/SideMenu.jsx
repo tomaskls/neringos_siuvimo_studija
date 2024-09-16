@@ -77,10 +77,10 @@ export const SidebarMenu = () => {
               <a href="#repair" onClick={closeMenu}>Taisymas</a></li>
             <li>
               <Scissors />
-              <a href="#" onClick={closeMenu}>Siuvimas</a></li>
+              <a href="#sewing" onClick={closeMenu}>Siuvimas</a></li>
             <li>
               <Scissors />
-              <a href="#" onClick={closeMenu}>Modeliavimas</a></li>
+              <a href="#design" onClick={closeMenu}>Modeliavimas</a></li>
             <li>
               <Scissors />
               <a href="#" onClick={closeMenu}>Galerija</a></li>

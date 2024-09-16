@@ -15,7 +15,6 @@
     }
     .alink{
         scroll-margin-top: 90px;
-        pointer-events: none;
     }
     .content{
         display: flex;
