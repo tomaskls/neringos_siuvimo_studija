@@ -1,15 +1,19 @@
-import { Gallery } from "./components/gallery/Gallery"
-import { Header } from "./components/header/Header"
-import { Main } from "./components/main/Main"
-import { SidebarMenu } from "./components/sideMenu/SideMenu"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Gallery } from "../pages/gallery"
+import { Home } from "../pages/home"
 
 export function App() {
   return (
+
+
     <>
-      <Header />
-      <SidebarMenu />
-      <Main />
-      <Gallery />
+      <Router>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+      </Router>
     </>
   )
 }

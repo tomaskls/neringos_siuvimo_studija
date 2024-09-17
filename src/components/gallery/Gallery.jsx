@@ -1,7 +1,12 @@
 import style from './Gallery.module.css'
+import { Link } from 'react-router-dom';
 
-export function Gallery() {
+export function Pictures() {
     return (
-        <div className={style.div}> bla bla bla</div>
+        <>
+        <div className={style.sasa}></div>
+        <Link to="/">home</Link>
+
+        </>
     )
 }
