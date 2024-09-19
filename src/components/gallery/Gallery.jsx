@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import style from './Gallery.module.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 export const Pictures = () => {
   const image = [
@@ -23,10 +25,11 @@ export const Pictures = () => {
       <h2 className={style.galleryTitle}>Nuotraukų Galerija</h2>
       <div className={style.imageGrid}>
         {image.map((image, index) => (
-          <img
+          <LazyLoadImage
             key={index}
             src={image.path}
             alt={image.name}
+            effect="opacity"
             className={style.galleryImage}
             onClick={() => handleImageClick(image)}
           />
