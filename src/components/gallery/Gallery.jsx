@@ -1,12 +1,24 @@
 import style from './Gallery.module.css'
 import { Link } from 'react-router-dom';
 
-export function Pictures() {
+
+
+  
+  export function Pictures() {
     return (
         <>
-        <div className={style.sasa}></div>
+        <div className={style.hg}></div>
         <Link to="/">home</Link>
+      
+      </>
+    );
+  }
 
-        </>
-    )
-}
+
+
+
+
+
+
+
+
