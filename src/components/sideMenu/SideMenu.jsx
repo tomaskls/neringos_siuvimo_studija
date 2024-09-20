@@ -41,14 +41,12 @@ export const SidebarMenu = () => {
   }, []);
 
   useEffect(() => {
-    // Pridedame arba pašaliname 'no-scroll' klasę prie body elemento
     if (isOpen) {
       document.body.classList.add('no-scroll');
     } else {
       document.body.classList.remove('no-scroll');
     }
 
-    // Išvalome efektą, kai komponentas išmontuojamas
     return () => {
       document.body.classList.remove('no-scroll');
     };
