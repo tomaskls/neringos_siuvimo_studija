@@ -1,7 +1,7 @@
 import style from './New.module.css'
 import { Link } from 'react-router-dom';
 
-import dzemperis from '../../../img/flisinis_dzemperis.webp'
+import dzemperis from '/img/siltas_flisinis_dzemperis.jpg'
 
 export function New() {
     return (
