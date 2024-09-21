@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import './sideMenu.css';
+import './SideMenu.css';
 import { Link } from 'react-router-dom';
 
 
