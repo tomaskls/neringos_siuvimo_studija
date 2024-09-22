@@ -9,6 +9,8 @@
         background-color: rgb(80, 5, 5);
         color: white;
         width: 100%;
+        scroll-margin-top: 90px;
+
     }
     .fbLink {
         display: flex;
@@ -25,10 +27,6 @@
         width: 30px;
         height: 30px;
         margin-left: 20px;
-    }
-    
-    .Contacts {
-        scroll-margin-top: 90px;
     }
     
     .contacts {

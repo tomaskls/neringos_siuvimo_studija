@@ -1,12 +1,14 @@
-import style from './Contacts.module.css'
+import style from './Contacts.module.css';
+import Fbicon  from '/facebook_icon.png'
+import Inicon  from '/instagram_logo.png'
 
 export function Contacts() {
     return (
 
         <div className={style.contactsContainer} id="kontaktai">
             <div className={style.social}>
-                <a className={style.fbLink} href="https://www.facebook.com/share/yoFQcUC5cKKnLSb7/" target="_blank">Sekite mus Facebook<img src="./img/facebook_icon.png" alt="facebook icon" /></a>
-                <a className={style.fbLink} href="https://www.instagram.com/neringossiuvimostudija">Instagram<img src="./img/instagram_logo.png" alt="instagram icon" /></a>
+                <a className={style.fbLink} href="https://www.facebook.com/share/yoFQcUC5cKKnLSb7/" target="_blank">Sekite mus Facebook<img src={Fbicon} alt="facebook icon" /></a>
+                <a className={style.fbLink} href="https://www.instagram.com/neringossiuvimostudija">Instagram<img src={Inicon} alt="instagram icon" /></a>
             </div>
             <div className={style.contacts}>
                 <h2 >Kontaktai</h2>
