@@ -1,4 +1,5 @@
 import { About } from "../about/About"
+import { Contacts } from "../Contacts"
 import { Design } from "../design/Design"
 import { New } from '../new_product/New'
 import { Repair } from "../repair/Repair"
@@ -14,6 +15,7 @@ export function Main() {
                 <Repair />
                 <Sewing />
                 <Design />
+                <Contacts />
             </div>
 
         </main>
