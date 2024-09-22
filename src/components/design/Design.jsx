@@ -1,9 +1,10 @@
 import style from './Design.module.css'
+import Modeliavimas from '/img/rubu_eskizai.webp'
 
 export function Design() {
     return(
         <div className={style.container}>
-                    <a className={style.alink} id="design" href=""><img className={style.img} src="./img/rubu_eskizai.webp" alt="rubu modeliavimas"/></a>
+                    <a className={style.alink} id="design" href=""><img className={style.img} src={Modeliavimas} alt="rubu modeliavimas"/></a>
                     <div className={style.content}>
                         <h2 className={style.h2}>Modeliavimas</h2>
                         <h2 className={style.h2}>Išskirtiniai Drabužiai Jums</h2>
