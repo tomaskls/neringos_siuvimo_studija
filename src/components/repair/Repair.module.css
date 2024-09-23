@@ -6,8 +6,8 @@
     }
 
     .container {
-        background-color: rgb(80, 5, 5);
-        color: white;
+        background-color: var(--back-color);
+        color: var(--text-color);
         width: 100%;
     }
     .img{
@@ -29,12 +29,10 @@
     .h2{
         font-size: 1.5em;
         font-weight: 700;
+        color: var(--heading-color);
     }
     .p{
         line-height: 1.4;
         text-align: justify;
     }
-    .repairList li::before {
-        
-    } 
 }

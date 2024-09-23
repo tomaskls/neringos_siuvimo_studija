@@ -6,7 +6,7 @@
     }
 
     .contactsContainer {
-        background-color: rgb(80, 5, 5);
+        background-color: var(--back-color);
         color: white;
         width: 100%;
         scroll-margin-top: 90px;

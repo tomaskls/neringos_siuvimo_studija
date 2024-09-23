@@ -3,10 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --back-color: rgb(80, 5, 5);
+  --text-color: #F0F0F0;
+  --heading-color: #fefe4c;
+}
+
 body{
   background-color: rgba(205, 140, 140, 0.323);
-  
+  color: var(--text-color);
 
+}
+body h2 {
+  color: var(--heading-color);
 }
 @font-face {
   font-family: "Merriweather";
