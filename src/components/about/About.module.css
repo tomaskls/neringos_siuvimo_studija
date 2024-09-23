@@ -1,11 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: var(--back-color);
+  }
 @media (max-width:760px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    
     .container {
-        background-color: var(--back-color);
         width: 100%;
         margin-top: 90px;
     }
@@ -32,4 +35,23 @@
         line-height: 1.4;
         text-align: justify;
     }
+}
+@media (min-width:761px){
+    .container{
+        display: flex;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        line-height: 1.4;
+        margin-right: 200px;
+        margin-left: 30px;
+    }
+
+    .img{
+        width: 400px;
+    }
+
 }

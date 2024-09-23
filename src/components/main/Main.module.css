@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 @media (max-width:760px) {
     .mainContainer{
         width: 100%;
@@ -16,12 +17,11 @@
 }
 @media (min-width:761px) {
 .mainContainer{
-    background-color: var(--back-color);
     width: 1000px;
     margin-left: calc(50% - 500px);
     margin-right: calc(50% - 500px);
     height: 100vh;
-
 }
+
 }
     

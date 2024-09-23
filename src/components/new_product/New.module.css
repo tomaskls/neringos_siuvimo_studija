@@ -1,11 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: var(--back-color);
+  }
 @media (max-width:760px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
     .container {
-        background-color: var(--back-color);
         width: 100%;
     }
     .img{
@@ -46,5 +48,19 @@
 .touched {
     background-color: var(--heading-color); 
 }
-
+}
+@media (min-width:761px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 30px;
+    }
+    .img{
+        width: 400px;
+    }
+    .contentNewItems{
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
 }

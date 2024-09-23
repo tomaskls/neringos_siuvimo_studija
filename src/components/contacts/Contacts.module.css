@@ -1,12 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactsContainer{
+    background-color: var(--back-color);
+}
 @media (max-width:760px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     .contactsContainer {
-        background-color: var(--back-color);
         width: 100%;
         scroll-margin-top: 90px;
     }
@@ -59,6 +60,12 @@
     .touched {
         background-color: var(--heading-color);
     }
+}
+@media (min-width:761px){
 
-
+    .fbLink img {
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
 }
