@@ -1,5 +1,5 @@
-import style from './About.module.css'
-import studija from '../../assets/img/studija.png'
+import style from './About.module.css';
+import studija from '../../assets/img/studija.png';
 
 export function About() {
     return (
@@ -10,5 +10,5 @@ export function About() {
                 <p className={style.p}>Siuvimo studija, kurioje siūlai visada randa kelią namo Nuo 2007 metų esame Šiaulių siuvimo meistrai, sugebantys iš bet kokios medžiagos sukurti šedevrą. Kai mūsų studija atveria duris, siūlai pradeda dainuoti, o adatos - šokti. Ateikite ir mes jums parodysime, kaip galima prikelti net seniausią audinį naujam gyvenimui!</p>
             </div>
         </div>
-    )
+    );
 }

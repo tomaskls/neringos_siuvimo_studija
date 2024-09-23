@@ -2,7 +2,6 @@
     .desktopHeader{
 display: none;
     }
-   
     .sticky{
         position: fixed;
         top: 0; 
@@ -14,8 +13,8 @@ display: none;
         justify-content: center;
         width: 100%;
         height: 30px;
-        background-color: rgb(80, 5, 5);
-        color: white;
+        background-color: var(--heading-color);
+        color: black;
         text-align: center;
         font-size: 1.2em;
         text-decoration: none;
@@ -27,7 +26,7 @@ display: none;
         justify-content: flex-start;
         gap: 5px;
         height: 60px;
-        background-color: var(--text-color);
+        background-color: whitesmoke;
     }
     .line2 h2{
         color: black;
@@ -43,16 +42,14 @@ display: none;
         margin: 0;
         padding: 0;
     }
-
     .sideMenu,
     .mobileHeader {
         display: none;
     }
-
     .topLine,
     .midleLine,
     .bottomLine {
-        background-color: rgb(80, 5, 5);
+        background-color:var(--back-color);
         width: 100%;
         padding-left: calc(50% - 500px);
         padding-right: calc(50% - 500px);
@@ -63,7 +60,7 @@ display: none;
     }
 
     .fotoContainer {
-        background-color: rgb(80, 5, 5);
+        background-color: var(--back-color);
         width: 1000px;
         margin-left: calc(50% - 500px);
         margin-right: calc(50% - 500px);

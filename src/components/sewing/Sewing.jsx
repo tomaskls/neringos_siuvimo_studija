@@ -1,6 +1,5 @@
-import style from './Sewing.module.css'
-import siuvimas from '/img/skaitmenines_spaudos_audinio_suknele.jpg'
-
+import style from './Sewing.module.css';
+import siuvimas from '/img/skaitmenines_spaudos_audinio_suknele.jpg';
 
 export function Sewing(){
     return (
@@ -17,5 +16,5 @@ export function Sewing(){
             </ul>
         </div>
     </div>
-    )
+    );
 }

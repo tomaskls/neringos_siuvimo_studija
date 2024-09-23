@@ -1,6 +1,5 @@
 .footer{
-    background-color: rgb(80, 5, 5);
-    color: aliceblue;
+    background-color: var(--back-color);
     display: flex;
     align-items: center;
     justify-content: center;

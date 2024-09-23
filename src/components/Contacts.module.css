@@ -4,17 +4,13 @@
         padding: 0;
         box-sizing: border-box;
     }
-
     .contactsContainer {
         background-color: var(--back-color);
-        color: white;
         width: 100%;
         scroll-margin-top: 90px;
-
     }
     .fbLink {
         display: flex;
-        color: white;
         padding: 10px;
         font-size: 1.3em;
         text-decoration: none;
@@ -22,13 +18,11 @@
         align-items: center;
         justify-content: center;
     }
-    
     .fbLink img {
         width: 30px;
         height: 30px;
         margin-left: 20px;
     }
-    
     .contacts {
         display: flex;
         flex-direction: column;
@@ -37,15 +31,12 @@
         justify-content: flex-end;
         padding: 10px;
     }
-    
     .contacts a {
-        color: white;
         text-decoration: none;
         border: 2px solid white;
         border-radius: 5px;
         padding: 10px 15px;
     }
-    
     .social {
         display: flex;
         flex-direction: column;

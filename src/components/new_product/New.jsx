@@ -1,6 +1,6 @@
-import style from './New.module.css'
+import style from './New.module.css';
 import { Link } from 'react-router-dom';
-import dzemperis from '/img/siltas_flisinis_dzemperis.jpg'
+import dzemperis from '/img/siltas_flisinis_dzemperis.jpg';
 
 export function New() {
     return (
@@ -13,5 +13,5 @@ export function New() {
                 
             </div>
         </div>
-    )
+    );
 }

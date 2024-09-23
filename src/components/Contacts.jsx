@@ -1,6 +1,6 @@
 import style from './Contacts.module.css';
-import Fbicon  from '/facebook_icon.png'
-import Inicon  from '/instagram_logo.png'
+import Fbicon from '/facebook_icon.png';
+import Inicon from '/instagram_logo.png';
 
 export function Contacts() {
     return (
@@ -25,9 +25,6 @@ export function Contacts() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-                </div>
-
-
-
-    )
+        </div>
+    );
 }

@@ -1,5 +1,5 @@
-import style from './Design.module.css'
-import Modeliavimas from '/img/rubu_eskizai.webp'
+import style from './Design.module.css';
+import Modeliavimas from '/img/rubu_eskizai.webp';
 
 export function Design() {
     return(
@@ -11,5 +11,5 @@ export function Design() {
                         <p className={style.p}>„Nuo idėjos iki podiumo - mūsų modeliavimo paslaugos jūsų sėkmei!“ Ieškote tobulo drabužio, bet nerandate jo parduotuvėje? Laikas sukurti jį patiems! Mūsų modeliavimo paslauga leis jums realizuoti savo kūrybines vizijas ir sukurti drabužį, kuris bus unikalus, stilingas ir puikiai pritaikytas būtent jums.</p>
                     </div>
                 </div>
-    )
+    );
 }

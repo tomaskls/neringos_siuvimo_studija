@@ -4,16 +4,13 @@
         padding: 0;
         box-sizing: border-box;
     }
-
     .container {
-        background-color: rgb(80, 5, 5);
-        color: white;
+        background-color: var(--back-color);
         width: 100%;
         margin-top: 90px;
     }
     .img{
         width: 100%;
-       
     }
     .alink{
         scroll-margin-top: 90px;
@@ -27,7 +24,6 @@
         gap: 10px;
         padding: 10px 10px;
     }
-   
     .h2{
         font-size: 1.5em;
         font-weight: 700;

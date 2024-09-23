@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 :root {
-  --back-color: rgb(80, 5, 5);
-  --text-color: #F0F0F0;
-  --heading-color: #fefe4c;
+  --back-color: #f1d8ab83;
+  --text-color: #654321;
+  --heading-color: #D4A017;
 }
 
 body{

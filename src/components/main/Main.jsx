@@ -1,11 +1,11 @@
-import { About } from "../about/About"
-import { Contacts } from "../Contacts"
-import { Design } from "../design/Design"
-import { Footer } from "../footer/Footer"
-import { New } from '../new_product/New'
-import { Repair } from "../repair/Repair"
-import { Sewing } from "../sewing/Sewing"
-import style from './Main.module.css'
+import { About } from "../about/About";
+import { Contacts } from "../Contacts";
+import { Design } from "../design/Design";
+import { Footer } from "../footer/Footer";
+import { New } from '../new_product/New';
+import { Repair } from "../repair/Repair";
+import { Sewing } from "../sewing/Sewing";
+import style from './Main.module.css';
 
 export function Main() {
     return (
@@ -19,8 +19,6 @@ export function Main() {
                 <Contacts />
                 <Footer />
             </div>
-
         </main>
-    )
-
+    );
 }
