@@ -1,7 +1,7 @@
 import style from './Contacts.module.css';
 import Fbicon from '/facebook_icon.png';
 import Inicon from '/instagram_logo.png';
-import {useTouch} from './usetouch';
+import {useTouch} from './Usetouch';
 
 export function Contacts() {
     const { isTouched: isFbTouched, handleTouchStart: handleFbTouchStart, handleTouchEnd: handleFbTouchEnd } = useTouch();

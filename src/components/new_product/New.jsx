@@ -1,7 +1,7 @@
 import style from './New.module.css';
 import { Link } from 'react-router-dom';
 import dzemperis from '/img/siltas_flisinis_dzemperis.jpg';
-import {useTouch} from '../usetouch';
+import {useTouch} from '../Usetouch';
 
 export function New() {
     const { isTouched, handleTouchStart, handleTouchEnd } = useTouch();
