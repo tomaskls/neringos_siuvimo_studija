@@ -12,6 +12,9 @@
     font-weight: bold;
     margin-bottom: 1rem;
   }
+  .noScroll {
+    overflow: hidden;
+  }
   
   .imageGrid {
     display: grid;

@@ -29,10 +29,14 @@ export const Pictures = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const handleImageClick = (image) => {
     setSelectedImage(image);
+    document.body.classList.add(style.noScroll);
   };
+  
   const handleCloseFullscreen = () => {
     setSelectedImage(null);
+    document.body.classList.remove(style.noScroll);
   };
+  
   return (
     <div className={style.picturesContainer}>
       <div className={style.titleContainer}>
