@@ -12,10 +12,8 @@ export function Sewing(){
             <ul className={style.repairList}>
                 <li>Moteriškų drabužių siuvimas</li>
                 <li>Vyriškų drabužių siuvimas</li>
-                <li>ir dar beleko siuvimas</li>
-                <li>ir dar beleko siuvimas</li>
-                <li>ir dar beleko siuvimas</li>
-                <li>ir dar beleko siuvimas</li>
+                <li>Vaikiškų drabužių siuvimas</li>
+                <li>Darbo drabužių,uniformų siuvimas</li>
             </ul>
         </div>
     </div>

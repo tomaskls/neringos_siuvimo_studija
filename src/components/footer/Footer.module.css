@@ -1,0 +1,7 @@
+.footer{
+    background-color: rgb(80, 5, 5);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

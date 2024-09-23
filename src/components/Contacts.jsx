@@ -13,7 +13,7 @@ export function Contacts() {
             <div className={style.contacts}>
                 <h2 >Kontaktai</h2>
                 <a href="tel:+37065073547">Skambinkite tel: +370 650 73547</a>
-                <p className="">Mus rasite adresu: <br />Vytauto g. 80 <br />Šiauliai</p>
+                <p className="">Mus rasite adresu: <br />Vytauto g. 8O <br />Šiauliai</p>
                 <p>Artimiausias nemokamas parkingas uz 200 metrų - rudės g.  14(maxima)</p>
             </div>
             <iframe className={style.map}
