@@ -5,7 +5,7 @@
 }
 @media (max-width:760px){
 
-.sidebar-toggle {
+.sidebarToggle {
   position: fixed;
   top: 3rem;
   right: 0.3rem;
@@ -18,11 +18,11 @@
   cursor: pointer;
 }
 
-.sidebar-toggle:hover {
+.sidebarToggle:hover {
   background-color: rgba(80, 5, 5, 0.401);
 }
 
-.sidebar-toggle:focus {
+.sidebarToggle:focus {
   outline: none;
   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
 }
@@ -48,7 +48,7 @@
 .sidebar.open {
   transform: translateX(0); /* Atidarytas */
 }
-.sidebar-close {
+.sidebarClose {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -59,20 +59,20 @@
   padding: 0.5rem;
 }
 
-.sidebar-close:hover {
+.sidebarClose:hover {
   color: #d1d5db;
 }
 
-.sidebar-nav {
+.sidebarNav {
   margin-top: 3rem;
 }
 
-.sidebar-nav ul {
+.sidebarNav ul {
   list-style-type: none;
   padding: 0;
 }
 
-.sidebar-nav li {
+.sidebarNav li {
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@
   align-items: center;
 }
 
-.sidebar-nav a {
+.sidebarNav a {
   display: block;
   padding: 0.5rem 1rem;
   color: white;
@@ -91,7 +91,7 @@
   border-radius: 0.25rem;
 }
 
-.sidebar-nav a:hover {
+.sidebarNav a:hover {
   background-color: #374151;
 }
 .dimmer {

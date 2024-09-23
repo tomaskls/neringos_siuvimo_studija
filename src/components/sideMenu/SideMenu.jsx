@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import './SideMenu.css';
+import style from './SideMenu.module.css';
 import { Link } from 'react-router-dom';
 
 
@@ -53,18 +53,18 @@ export const SidebarMenu = () => {
   }, [isOpen]);
 
   return (
-    <div className='sideMenu'>
+    <div className={style.sideMenu}>
       {!isOpen && (
-        <button onClick={toggleMenu} className="sidebar-toggle">
+        <button onClick={toggleMenu} className={style.sidebarToggle}>
           <MenuIcon />
         </button>
       )}
 
-      <div ref={sidebarRef} className={`sidebar ${isOpen ? 'open' : ''}`}>
-        <button onClick={closeMenu} className="sidebar-close">
+      <div ref={sidebarRef} className={`${style.sidebar} ${isOpen ? style.open : ''}`}>
+        <button onClick={closeMenu} className={style.sidebarClose}>
           <CloseIcon />
         </button>
-        <nav className="sidebar-nav">
+        <nav className={style.sidebarNav}>
           <ul>
             <li>
               <Scissors />
@@ -81,7 +81,7 @@ export const SidebarMenu = () => {
             <li>
               <Scissors />
               <a href="#design" onClick={closeMenu}>Modeliavimas</a></li>
-            <li className='liGallery'>
+            <li className={style.liGallery}>
               <Scissors />
               <Link to="/gallery">
                 <span onClick={closeMenu}>Galerija</span>
@@ -93,7 +93,7 @@ export const SidebarMenu = () => {
           </ul>
         </nav>
       </div>
-      {isOpen && <div className="dimmer" onClick={closeMenu}></div>}
+      {isOpen && <div className={style.dimmer} onClick={closeMenu}></div>}
     </div>
   );
 };
