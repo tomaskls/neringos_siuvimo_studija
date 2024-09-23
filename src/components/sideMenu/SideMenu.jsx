@@ -83,13 +83,10 @@ export const SidebarMenu = () => {
               <a href="#design" onClick={closeMenu}>Modeliavimas</a></li>
             <li className='liGallery'>
               <Scissors />
-            <Link to="/gallery">
-              <span onClick={closeMenu}>Galerija</span>
+              <Link to="/gallery">
+                <span onClick={closeMenu}>Galerija</span>
               </Link>
-              </li>
-            <li>
-              <Scissors />
-              <a href="#" onClick={closeMenu}>D.U.K.</a></li>
+            </li>
             <li>
               <Scissors />
               <a href="#kontaktai" onClick={closeMenu}>Kontaktai</a></li>
