@@ -1,9 +1,13 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import style from './Gallery.module.css';
 import { Link } from 'react-router-dom';
 
 
 export const Pictures = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Slinkti į puslapio viršų, kai komponentas užkraunamas
+  }, []);
+
   const image = [
     { path: '/img/pilkas_flisinis_dzemperis.jpg', name: '' },
     { path: '/img/moteriskas_flisinis_dzemperis.jpg', name: '' },
