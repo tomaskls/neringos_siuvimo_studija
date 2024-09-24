@@ -63,4 +63,8 @@
         flex-direction: column;
         padding: 40px;
     }
+    .alink{
+        scroll-margin-top: 60px;
+       
+    }
 }

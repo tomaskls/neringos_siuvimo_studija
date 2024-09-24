@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import style from './Gallery.module.css';
 import { Link } from 'react-router-dom';
+import { Footer } from '../footer/Footer';
 
 
 export const Pictures = () => {
@@ -35,36 +36,39 @@ export const Pictures = () => {
     setSelectedImage(image);
     document.body.classList.add(style.noScroll);
   };
-  
+
   const handleCloseFullscreen = () => {
     setSelectedImage(null);
     document.body.classList.remove(style.noScroll);
   };
-  
+
   return (
-    <div className={style.picturesContainer}>
-      <div className={style.titleContainer}>
-        <h2 className={style.galleryTitle}>Nuotraukų Galerija</h2>
-        <Link to="/">
-          <button className={style.btnBack}>Atgal</button>
-        </Link>
-      </div>
-      <div className={style.imageGrid}>
-        {image.map((image, index) => (
-          <img
-            key={index}
-            src={image.path}
-            alt={image.name}
-            className={style.galleryImage}
-            onClick={() => handleImageClick(image)}
-          />
-        ))}
-      </div>
-      {selectedImage && (
-        <div className={style.fullscreenOverlay} onClick={handleCloseFullscreen}>
-          <img src={selectedImage.path} alt="selectedImage.name" className={style.fullscreenImage} />
+    <>
+      <div className={style.picturesContainer}>
+        <div className={style.titleContainer}>
+          <h2 className={style.galleryTitle}>Nuotraukų Galerija</h2>
+          <Link to="/">
+            <button className={style.btnBack}>Atgal</button>
+          </Link>
         </div>
-      )}
-    </div>
+        <div className={style.imageGrid}>
+          {image.map((image, index) => (
+            <img
+              key={index}
+              src={image.path}
+              alt={image.name}
+              className={style.galleryImage}
+              onClick={() => handleImageClick(image)}
+            />
+          ))}
+        </div>
+        {selectedImage && (
+          <div className={style.fullscreenOverlay} onClick={handleCloseFullscreen}>
+            <img src={selectedImage.path} alt="selectedImage.name" className={style.fullscreenImage} />
+          </div>
+        )}
+      </div>
+      <Footer />
+    </>
   );
 }

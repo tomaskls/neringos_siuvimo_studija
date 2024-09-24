@@ -8,7 +8,7 @@ export function Contacts() {
     const { isTouched: isInTouched, handleTouchStart: handleInTouchStart, handleTouchEnd: handleInTouchEnd } = useTouch();
 
     return (
-        <div className={style.contactsContainer} id="kontaktai">
+        <div className={style.contactsContainer} id="contacts">
             <div className={style.social}>
                 <a 
                     className={`${style.fbLink} ${isFbTouched ? style.touched : ''}`} 

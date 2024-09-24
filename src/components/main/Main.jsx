@@ -12,8 +12,8 @@ export function Main() {
         <main className={style.merriweatherRegular}>
             <div className={style.mainContainer}>
                 <About />
-                <New />
                 <Repair />
+                <New />
                 <Sewing />
                 <Design />
                 <Contacts />

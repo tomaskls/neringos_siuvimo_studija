@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import styles from './Desktop.module.css';
+import { Link } from 'react-router-dom';
 
 const HeaderD = () => {
     const titleRef = useRef(null);
@@ -43,13 +44,17 @@ const HeaderD = () => {
             <h1 ref={titleRef} className={styles.title}>Neringos Siuvimo Studija</h1>
             <nav ref={navRef} className={styles.nav}>
                 <div className={styles.navContent}>
-                    <button className={styles.navButton}>Naujiena!!!</button>
-                    <button className={styles.navButton}>Taisymas</button>
-                    <button className={styles.navButton}>Siuvimas</button>
-                    <button className={styles.navButton}>Galerija</button>
-                    <button className={styles.navButton}>Modeliavimas</button>
-                    <button className={styles.navButton}>Kontaktai</button>
                     <h2 ref={neringosRef} className={styles.neringos}>Neringos Siuvimo Studija</h2>
+                    <a href="#new"><button className={styles.navButton}>Naujiena!!!</button></a>
+                    <a href="#repair"><button className={styles.navButton}>Taisymas</button></a>
+                    <a href="#sewing"><button className={styles.navButton}>Siuvimas</button></a>
+                    <Link to="/gallery">
+                    <button className={styles.navButton}>Galerija</button>
+                    </Link>
+                    <a href="#design"><button className={styles.navButton}>Modeliavimas</button> </a>
+                    <a href="#contacts"><button className={styles.navButton}>Kontaktai</button></a>
+                    
+                    
                 </div>
             </nav>
         </header>

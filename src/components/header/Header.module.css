@@ -33,7 +33,7 @@ display: none;
         background-color: #f1d9ab;
     }
     .line2 h2{
-        color: black;
+        color: var(--text-color);
     }
     .logoImg{
         width: 50px;

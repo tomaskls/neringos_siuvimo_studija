@@ -71,10 +71,10 @@ export const SidebarMenu = () => {
               <a href="#about" onClick={closeMenu}>Pagrindinis</a></li>
             <li>
               <Scissors />
-              <a href="#new" onClick={closeMenu}>Naujiena!!!</a></li>
+              <a href="#repair" onClick={closeMenu}>Taisymas</a></li>
             <li>
               <Scissors />
-              <a href="#repair" onClick={closeMenu}>Taisymas</a></li>
+              <a href="#new" onClick={closeMenu}>Naujiena!!!</a></li>
             <li>
               <Scissors />
               <a href="#sewing" onClick={closeMenu}>Siuvimas</a></li>
@@ -89,7 +89,7 @@ export const SidebarMenu = () => {
             </li>
             <li>
               <Scissors />
-              <a href="#kontaktai" onClick={closeMenu}>Kontaktai</a></li>
+              <a href="#contacts" onClick={closeMenu}>Kontaktai</a></li>
           </ul>
         </nav>
       </div>
