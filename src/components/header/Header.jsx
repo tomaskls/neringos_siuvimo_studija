@@ -1,33 +1,13 @@
 import logo from '../../assets/logo.png';
+import HeaderD from './Desktop';
 import style from './Header.module.css';
 
 export function Header() {
   return (
     <header className={style.merriweatherRegular}>
-      <nav className={style.desktopHeader}>
-        <div className={style.topLine}>
-          <div className={style.navTop}>
-            <a className={style.navTopLink} href="#">
-              Pagrindinis
-            </a>
-            <a className={style.navTopLink} href="#">
-              Naujiena!!!
-            </a>
-            <a className={style.navTopLink} href="#">
-              Taisymas
-            </a>
-            <a className={style.navTopLink} href="#">
-              Siuvimas
-            </a>
-            <a className={style.navTopLink} href="#">
-              Modeliavimas
-            </a>
-            <a className={style.navTopLink} href="#">
-              Kontaktai
-            </a>
-          </div>
-        </div>
-      </nav>
+      <div className={style.desktopHeader}>
+        <HeaderD />
+      </div>
       <div className={style.mobileHeader}>
         <div className={style.sticky}>
           <a className={style.line1} href="tel:+37065073547">Turite klausimu? +370 650 73547</a>
