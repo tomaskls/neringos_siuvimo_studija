@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #f1d8ab;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
+
+.title {
+  color: var(--text-color);
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  animation: stitchIn 1s forwards;
+}
+
+@keyframes stitchIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: auto;
+  width: 100%;
+  top: 0;
+}
+.nav.fixed{
+  position: fixed;
+  top: 0;
+}
+.nav.scrolled{
+  background-color: #f1d9ab;
+}
+.navContent {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+.neringos {
+  display: none;
+  color: var(--text-color);
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.neringos.visible {
+  display: block;
+  width: 100%;
+}
+.navButton {
+  background-color: #f1d9ab;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navButton:hover {
+  background-color: #654321;
+  color: #f1d8ab;
+  border-color: aliceblue;
+}

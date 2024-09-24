@@ -1,0 +1,74 @@
+.header {
+    background-color: #f1d8ab;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+  }
+  
+  .title {
+    color: #D4A017;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .letter {
+    display: inline-block;
+    opacity: 0;
+    animation: stitchIn 1s forwards;
+  }
+  
+  @keyframes stitchIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .navButton {
+    background-color: #D4A017;
+    color: #654321;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navButton:hover {
+    background-color: #654321;
+    color: #f1d8ab;
+  }
+  
+  .thread {
+    position: absolute;
+    height: 2px;
+    background-color: #654321;
+    width: 100%;
+    animation: threadAnimation 10s linear infinite;
+  }
+  
+  @keyframes threadAnimation {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }

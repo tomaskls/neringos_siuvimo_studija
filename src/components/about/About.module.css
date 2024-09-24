@@ -39,6 +39,7 @@
 @media (min-width:761px){
     .container{
         display: flex;
+        
     }
     .content{
         display: flex;
