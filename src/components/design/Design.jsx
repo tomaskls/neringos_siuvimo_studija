@@ -1,10 +1,10 @@
+import { PictureAbout } from '../about/About';
 import style from './Design.module.css';
-import Modeliavimas from '/img/ivairios_spalvos.jpg';
 
 export function Design() {
     return (
         <div id='design' className={style.container}>
-            <img className={style.img} src={Modeliavimas} alt="rubu modeliavimas" />
+            <div><PictureAbout /></div>
             <div className={style.content}>
                 <h2 className={style.h2}>Modeliavimas</h2>
                 <h2 className={style.h2}>Išskirtiniai Drabužiai Jums</h2>
