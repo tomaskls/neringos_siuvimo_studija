@@ -54,7 +54,7 @@ export const SidebarMenu = () => {
   return (
     <div className={style.sideMenu}>
       {!isOpen && (
-        <button onClick={toggleMenu} className={style.sidebarToggle}>
+          <button onClick={toggleMenu} className={style.sidebarToggle} aria-label="Atidaryti šoninį meniu">
           <MenuIcon />
         </button>
       )}
