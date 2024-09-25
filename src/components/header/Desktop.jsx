@@ -49,12 +49,12 @@ const HeaderD = () => {
                     <a href="#repair"><button className={styles.navButton}>Taisymas</button></a>
                     <a href="#sewing"><button className={styles.navButton}>Siuvimas</button></a>
                     <Link to="/gallery">
-                    <button className={styles.navButton}>Galerija</button>
+                        <button className={styles.navButton}>Galerija</button>
                     </Link>
                     <a href="#design"><button className={styles.navButton}>Modeliavimas</button> </a>
                     <a href="#contacts"><button className={styles.navButton}>Kontaktai</button></a>
-                    
-                    
+
+
                 </div>
             </nav>
         </header>

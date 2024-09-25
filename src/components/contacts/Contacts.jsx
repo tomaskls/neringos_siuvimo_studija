@@ -1,7 +1,7 @@
 import style from './Contacts.module.css';
 import Fbicon from '/facebook_icon.png';
 import Inicon from '/instagram_logo.png';
-import {useTouch} from '../Usetouch';
+import { useTouch } from '../Usetouch';
 
 export function Contacts() {
     const { isTouched: isFbTouched, handleTouchStart: handleFbTouchStart, handleTouchEnd: handleFbTouchEnd } = useTouch();
@@ -10,24 +10,16 @@ export function Contacts() {
     return (
         <div className={style.contactsContainer} id="contacts">
             <div className={style.social}>
-                <a 
-                    className={`${style.fbLink} ${isFbTouched ? style.touched : ''}`} 
-                    href="https://www.facebook.com/share/yoFQcUC5cKKnLSb7/" 
+                <a className={`${style.fbLink} ${isFbTouched ? style.touched : ''}`}
+                    href="https://www.facebook.com/share/yoFQcUC5cKKnLSb7/"
                     target="_blank"
                     onTouchStart={handleFbTouchStart}
-                    onTouchEnd={handleFbTouchEnd}
-                >
-                    Sekite mus Facebook
-                    <img src={Fbicon} alt="facebook icon" />
+                    onTouchEnd={handleFbTouchEnd}>Sekite mus Facebook<img src={Fbicon} alt="facebook icon" />
                 </a>
-                <a 
-                    className={`${style.fbLink} ${isInTouched ? style.touched : ''}`} 
+                <a className={`${style.fbLink} ${isInTouched ? style.touched : ''}`}
                     href="https://www.instagram.com/neringossiuvimostudija"
                     onTouchStart={handleInTouchStart}
-                    onTouchEnd={handleInTouchEnd}
-                >
-                    Instagram
-                    <img src={Inicon} alt="instagram icon" />
+                    onTouchEnd={handleInTouchEnd}>Instagram<img src={Inicon} alt="instagram icon" />
                 </a>
             </div>
             <div className={style.contacts}>

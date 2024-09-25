@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .container{
     background-color: var(--back-color);
 }
@@ -12,8 +7,6 @@
     }
     .img{
         width: 100%;
-    }
-    .alink{
         scroll-margin-top: 90px;
     }
     .content{

@@ -1,71 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.contactsContainer {
+  background-color: var(--back-color);
 }
-.contactsContainer{
-    background-color: var(--back-color);
+@media (max-width: 760px) {
+  .contactsContainer {
+    width: 100%;
+    scroll-margin-top: 90px;
+  }
+  .fbLink {
+    display: flex;
+    padding: 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    color: var(--heading-color);
+  }
+  .fbLink img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  .contacts a {
+    text-decoration: none;
+    border: 2px solid var(--heading-color);
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: var(--heading-color);
+  }
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .map {
+    width: 100%;
+    padding: 5px;
+  }
+  .touched {
+    background-color: var(--heading-color);
+  }
 }
-@media (max-width:760px) {
-    .contactsContainer {
-        width: 100%;
-        scroll-margin-top: 90px;
-    }
-
-    .fbLink {
-        display: flex;
-        padding: 10px;
-        font-size: 1.3em;
-        text-decoration: none;
-        line-height: 1.5;
-        align-items: center;
-        justify-content: center;
-        color: var(--heading-color);
-    }
-
-    .fbLink img {
-        width: 30px;
-        height: 30px;
-        margin-left: 20px;
-    }
-
-    .contacts {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: flex-start;
-        justify-content: flex-end;
-        padding: 10px;
-    }
-
-    .contacts a {
-        text-decoration: none;
-        border: 2px solid var(--heading-color);
-        border-radius: 5px;
-        padding: 10px 15px;
-        color: var(--heading-color);
-    }
-
-    .social {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .map {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .touched {
-        background-color: var(--heading-color);
-    }
-}
-@media (min-width:761px){
-
-    .fbLink img {
-        width: 30px;
-        height: 30px;
-        margin-left: 20px;
-    }
+@media (min-width: 761px) {
+  .fbLink img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
 }
