@@ -3,7 +3,7 @@ import style from './About.module.css';
 export const PictureAbout = () => {
     return ( <picture >
          <source srcSet="public\ivairios_spalvos_600.jpg" media="(max-width: 780px)" />
-         <img className={style.img} src="public\img\ivairios_spalvos.jpg" alt="siltas flisinis dzemperis" />
+         <img className={style.img} src="img/ivairios_spalvos.jpg" alt="siltas flisinis dzemperis" />
      </picture>
     )
  };
