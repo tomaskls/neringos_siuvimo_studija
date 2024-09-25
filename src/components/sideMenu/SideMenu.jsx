@@ -60,7 +60,7 @@ export const SidebarMenu = () => {
       )}
 
       <div ref={sidebarRef} className={`${style.sidebar} ${isOpen ? style.open : ''}`}>
-        <button onClick={closeMenu} className={style.sidebarClose}>
+        <button onClick={closeMenu} className={style.sidebarClose} aria-label="Uždaryti šoninį meniu">
           <CloseIcon />
         </button>
         <nav className={style.sidebarNav}>

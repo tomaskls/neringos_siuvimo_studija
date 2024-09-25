@@ -48,6 +48,7 @@
   }
   .img {
     width: 400px;
+    height: 580px;
   }
   .contentNewItems {
     display: flex;
