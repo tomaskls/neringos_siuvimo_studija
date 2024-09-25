@@ -1,70 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container {
+  background-color: var(--back-color);
 }
-.container{
-    background-color: var(--back-color);
+@media (max-width: 760px) {
+  .container {
+    width: 100%;
   }
-@media (max-width:760px) {
-    .container {
-        width: 100%;
-    }
-    .img{
-        width: 100%;
-    }
-    .alink{
-        scroll-margin-top: 90px;
-        pointer-events: none;
-    }
-    .contentNewItems{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        padding: 10px 10px;
-    }
-   
-    .h2{
-        font-size: 1.5em;
-        font-weight: 700;
-    }
-    .p{
-        line-height: 1.4;
-        text-align: justify;
-    }
-    .plink{
-        color: var(--heading-color);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid var(--heading-color);
-        border-radius: 10px;
-        padding: 5px;
-        margin-top: 8px;
-        text-decoration: none;
-    }
-.touched {
-    background-color: var(--heading-color); 
+  .img {
+    width: 100%;
+    scroll-margin-top: 90px;
+  }
+  .contentNewItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+  .h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .p {
+    line-height: 1.4;
+    text-align: justify;
+  }
+  .plink {
+    color: var(--heading-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--heading-color);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 8px;
+    text-decoration: none;
+  }
+  .touched {
+    background-color: var(--heading-color);
+  }
 }
-}
-@media (min-width:761px){
-    .container{
-        display: flex;
-        flex-direction: row-reverse;
-        padding-top: 30px;
-    }
-    .img{
-        width: 400px;
-    }
-    .contentNewItems{
-        display: flex;
-        flex-direction: column;
-        padding: 40px;
-    }
-    .alink{
-        scroll-margin-top: 60px;
-       
-    }
+@media (min-width: 761px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+  }
+  .img {
+    width: 400px;
+  }
+  .contentNewItems {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
 }

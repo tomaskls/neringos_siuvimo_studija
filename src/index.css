@@ -1,4 +1,5 @@
- * {
+body,
+body * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,67 +7,57 @@
 :root {
   --back-color: #f1d8ab83;
   --text-color: #654321;
-  --heading-color: #D4A017;
+  --heading-color: #d4a017;
 }
-
-body{
+body {
   background-color: rgba(205, 140, 140, 0.323);
   color: var(--text-color);
-
 }
 body h2 {
   color: var(--heading-color);
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-Light.ttf);
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-Black.ttf);
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-LightItalic.ttf);
   font-weight: 300;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-Italic.ttf);
   font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-BoldItalic.ttf);
   font-weight: 700;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Merriweather";
   src: url(./assets/fonts/Merriweather/Merriweather-BlackItalic.ttf);
@@ -74,18 +65,17 @@ body h2 {
   font-style: italic;
 }
 
-
-  body{
-    background-color: white;
-    font-family: "Merriweather", serif;
-    font-size: 400;
-    font-style: italic;
-  }
-  html {
-    scroll-behavior: smooth;
-}    
-@media (min-width:761px){
-  body{
+body {
+  background-color: white;
+  font-family: "Merriweather", serif;
+  font-size: 400;
+  font-style: italic;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (min-width: 761px) {
+  body {
     background-color: whitesmoke;
   }
 }
