@@ -3,13 +3,13 @@
 }
 @media (max-width: 760px) {
   .container {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     margin-top: 90px;
   }
   .img {
     max-width: 100%;
     height: auto;
-    aspect-ratio: 9 / 16;
     scroll-margin-top: 90px;
   }
   .content {
