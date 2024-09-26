@@ -1,4 +1,4 @@
-import { PictureAbout } from '../about/About';
+import { PictureAbout } from '../design/Design';
 import style from './Sewing.module.css';
 export function Sewing() {
     return (

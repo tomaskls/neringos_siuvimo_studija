@@ -2,8 +2,8 @@ import style from './About.module.css';
 
 export const PictureAbout = () => {
     return ( <picture >
-         <source srcSet="/ivairios_spalvos_600.jpg" media="(max-width: 780px)" />
-         <img className={style.img} src="img/ivairios_spalvos.jpg" loading='lazy' alt="siltas flisinis dzemperis" />
+         <source srcSet="/kavos_600.webp" media="(max-width: 780px)" />
+         <img className={style.img} src="/img/kavos_pertraukele.jpg" alt="siltas flisinis dzemperis" />
      </picture>
     )
  };
