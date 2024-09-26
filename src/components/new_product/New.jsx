@@ -5,7 +5,7 @@ import { useTouch } from '../Usetouch';
 const PictureNew = () => {
    return ( <picture >
         <source srcSet="/siltas_flisinis_dzemperis_600.jpg" media="(max-width: 780px)" />
-        <img className={style.img} src="img/siltas_flisinis_dzemperis.jpg" alt="siltas flisinis dzemperis" />
+        <img className={style.img} src="img/siltas_flisinis_dzemperis.jpg" loading='lazy' alt="siltas flisinis dzemperis" />
     </picture>
    )
 };
