@@ -1,6 +1,6 @@
 import style from './Contacts.module.css';
 import Fbicon from '/facebook_icon.png';
-import Inicon from '/instagram_logo.png';
+import Inicon from '/instagram_logo.webp';
 import { useTouch } from '../Usetouch';
 import { useEffect, useState } from 'react';
 
