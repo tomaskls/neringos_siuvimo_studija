@@ -10,7 +10,6 @@ export function Repair() {
     return (
         <div id='repair' className={style.container}>
             <div><PictureAbout /></div>
-            
             <div className={style.content}>
                 <h2 className={style.h2}>Rūbų Taisymas</h2>
                 <p className={style.p}>Ar jūsų mėgstamiausia suknelė prarado būrį sagų? O gal madingos kelnytės tapo per ilgos? Mūsų drabužių taisymas - tai lyg stebuklų dirbtuvės jūsų spintai! Ateikite pas mus ir mes paverčiame bet kokį &quot;oops&quot; į &quot;wow&quot;!</p>

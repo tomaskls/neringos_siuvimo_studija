@@ -35,6 +35,7 @@
 @media (min-width: 761px) {
   .container {
     display: flex;
+    flex-direction: row-reverse;
     scroll-margin-top: 60px;
   }
   .img {
