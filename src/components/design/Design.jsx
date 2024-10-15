@@ -1,17 +1,17 @@
 import style from './Design.module.css';
 
-export const PictureAbout = () => {
-    return ( <picture >
-         <source srcSet="/ivairios_spalvos_600.jpg" media="(max-width: 780px)" />
-         <img className={style.img} src="img/ivairios_spalvos.jpg" loading='lazy' alt="siltas flisinis dzemperis" />
-     </picture>
+const PictureSewing = () => {
+    return (<picture >
+        <source srcSet="/design_750.webp" media="(max-width: 780px)" />
+        <img className={style.img} src="/design_900.webp" alt="moterisku rubu siuvimas" />
+    </picture>
     )
- };
+};
 
 export function Design() {
     return (
         <div id='design' className={style.container}>
-            <div><PictureAbout /></div>
+            <div><PictureSewing /></div>
             <div className={style.content}>
                 <h2 className={style.h2}>Modeliavimas</h2>
                 <h2 className={style.h2}>Išskirtiniai Drabužiai Jums</h2>
