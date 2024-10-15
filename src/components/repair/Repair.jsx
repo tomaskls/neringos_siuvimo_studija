@@ -1,3 +1,4 @@
+import { Siulai } from '../svg';
 import style from './Repair.module.css'
 
 const ScissorsIcon = () => (
@@ -33,6 +34,7 @@ export function Repair() {
                     <li><ScissorsIcon /> Proginių drabužių taisymas</li>
                     <li><ScissorsIcon /> Striukių ir paltų taisymas</li>
                 </ul>
+                <div className={style.svg}><Siulai /></div>
             </div>
         </div>
     )

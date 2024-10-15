@@ -41,12 +41,15 @@
   .touched {
     background-color: var(--heading-color);
   }
+  .svg{
+    width: 20px;
+  }
 }
 @media (min-width: 761px) {
   .container {
     display: flex;
-    flex-direction: row-reverse;
     padding-top: 30px;
+    gap: 80px;
   }
   .img {
     width: 450px;
@@ -54,7 +57,25 @@
   }
   .contentNewItems {
     display: flex;
+    width: 400px;
     flex-direction: column;
-    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    line-height: 1.5;
+  }
+  .svg{
+    width: 100px;
+  }
+  .plink{
+    text-decoration: none;
+    color: var(--heading-color);
+    border: 2px solid var(--heading-color);
+    border-radius: 15px;
+    padding: 5px 13px;
+  }
+  .plink:hover{
+    background-color: var(--heading-color);
+    color: aliceblue;
   }
 }

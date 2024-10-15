@@ -1,3 +1,4 @@
+import { Siulai, Zirkles } from '../svg';
 import style from './Sewing.module.css';
 
 const PictureSewing = () => {
@@ -21,6 +22,7 @@ export function Sewing() {
                     <li>Vyriškų drabužių siuvimas</li>
                     <li>Vaikiškų drabužių siuvimas</li>
                 </ul>
+                <div className={style.svg}><Zirkles /></div>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ body * {
 :root {
   --back-color: #f1d8ab83;
   --text-color: #654321;
-  --heading-color: #d4a017;
+  --heading-color: #654321;
 }
 body {
   background-color: rgba(205, 140, 140, 0.323);

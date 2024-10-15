@@ -27,23 +27,31 @@
     line-height: 1.4;
     text-align: justify;
   }
+  .svg{
+    width: 20px;
+  }
 }
 @media (min-width: 761px) {
   .container {
     display: flex;
     flex-direction: row-reverse;
+    padding-top: 30px;
+    gap: 80px;
   }
   .img {
-    width: 400px;
-    height: 700px;
+    width: 450px;
+    height: 675px;
   }
   .content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    line-height: 1.4;
-    margin-right: 20px;
-    margin-left: 30px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    line-height: 1.5;
+  }
+  .svg{
+    width: 100px;
   }
 }
