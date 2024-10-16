@@ -10,6 +10,9 @@ export const Pictures = () => {
 
   const image = [
     { path: '/img/pilkas_flisinis_dzemperis.jpg', name: '' },
+     { path: '/img/pilkas_flisinis_dzemperis900.webp', name: '' },
+    { path: '/img/moteriskas_flisinis_dzemperis.jpg', name: '' },
+    { path: '/img/moteriskas_flisinis_dzemperis900.webp', name: '' },
     { path: '/img/moteriskas_flisinis_dzemperis.jpg', name: '' },
     { path: '/img/kavos_pertraukele.jpg', name: '' },
     { path: '/img/ivairios_spalvos.jpg', name: '' },
