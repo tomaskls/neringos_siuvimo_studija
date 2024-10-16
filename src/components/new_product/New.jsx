@@ -6,7 +6,7 @@ import { Smasina } from '../svg';
 const PictureNew = () => {
    return ( <picture >
         <source srcSet="/siltas_flisinis_dzemperis_750.webp" media="(max-width: 780px)" />
-        <img className={style.img} src="/siltas_flisinis_dzemperis_900.webp" loading='lazy' alt="siltas flisinis dzemperis" />
+        <img className={style.img} src="/šiltas_flisinis_džemperis_900.webp" loading='lazy' alt="siltas flisinis dzemperis" />
     </picture>
    )
 };

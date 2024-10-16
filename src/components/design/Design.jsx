@@ -4,7 +4,7 @@ import style from './Design.module.css';
 const PictureSewing = () => {
     return (<picture >
         <source srcSet="/design_750.webp" media="(max-width: 780px)" />
-        <img className={style.img} src="/design_900.webp" alt="moterisku rubu siuvimas" />
+        <img className={style.img} src="/design_900.webp" alt="moteriškų rūbų siuvimas" />
     </picture>
     )
 };

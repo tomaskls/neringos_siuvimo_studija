@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import style from './Gallery.module.css';
 import { Link } from 'react-router-dom';
-import { Footer } from '../footer/Footer';
 
 
 export const Pictures = () => {
@@ -68,7 +67,6 @@ export const Pictures = () => {
           </div>
         )}
       </div>
-      <Footer />
     </>
   );
 }
