@@ -1,6 +1,9 @@
 .container {
   background-color: var(--back-color);
 }
+.repairList {
+  list-style: none;
+}
 @media (max-width: 760px) {
   .container {
     max-width: 100%;
@@ -28,27 +31,33 @@
     line-height: 1.4;
     text-align: justify;
   }
-  .repairList {
-    list-style: none;
+  .svg{
+    width: 20px;
   }
+  
 }
 @media (min-width: 761px) {
   .container {
     display: flex;
     flex-direction: row-reverse;
-    scroll-margin-top: 60px;
+    padding-top: 30px;
+    gap: 80px;
   }
   .img {
-    width: 400px;
-    width: 700px;
+    width: 450px;
+    height: 675px;
   }
   .content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    line-height: 1.4;
-    margin-right: 20px;
-    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    gap: 40px;
+    line-height: 1.5;
   }
+  .svg {
+    width: 100px;
+  }
+  
 }
