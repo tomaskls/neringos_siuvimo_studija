@@ -28,6 +28,7 @@ export function Contacts() {
                 </a>
                 <a className={`${style.fbLink} ${isInTouched ? style.touched : ''}`}
                     href="https://www.instagram.com/neringossiuvimostudija"
+                    target="_blank"
                     onTouchStart={handleInTouchStart}
                     onTouchEnd={handleInTouchEnd}>Instagram<img src={Inicon} alt="instagram icon" />
                 </a>
