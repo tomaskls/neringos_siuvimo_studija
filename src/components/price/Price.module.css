@@ -57,6 +57,8 @@
     .showLessBtn, .showMoreBtn{
         margin-bottom: 10px;
         margin-left: 150px;
+        font-size: 0.8em;
+        margin-top: 5px;
     }  
 }
   @media (min-width: 761px) {
