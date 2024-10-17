@@ -12,7 +12,7 @@ export const PictureAbout = () => {
 
 export function About() {
     return (
-        <div className={style.container}>
+        <div id='about' className={style.container}>
             <div>
                 <PictureAbout />
             </div>
