@@ -52,6 +52,7 @@ const HeaderD = () => {
                         <button className={styles.navButton}>Galerija</button>
                     </Link>
                     <a href="#design"><button className={styles.navButton}>Modeliavimas</button> </a>
+                    <a href="#price"><button className={styles.navButton}>Kainos</button> </a>
                     <a href="#contacts"><button className={styles.navButton}>Kontaktai</button></a>
 
 
