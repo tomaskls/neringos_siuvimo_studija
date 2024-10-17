@@ -10,7 +10,7 @@ export function Header() {
       </div>
       <div className={style.mobileHeader}>
         <div className={style.sticky}>
-          <a className={style.line1} href="tel:+37060055316">Turite klausimu? +370 650 73547</a>
+          <a className={style.line1} href="tel:+37060055316">Turite klausimu? +370 600 55316</a>
           <div className={style.line2}>
             <img className={style.logoImg} src={logo} alt="logo" />
             <h2>Neringos Siuvimo Studija</h2>
