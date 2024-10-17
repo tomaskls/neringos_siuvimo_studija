@@ -55,7 +55,8 @@ export const Pictures = () => {
     { path: '/img/suknele_2.webp', name: 'suknele_2'},
     { path: '/img/suknele_su_RASTAIS.webp', name: 'suknele_su_RASTAIS'},
     { path: '/img/suknele_zalia.webp', name: 'suknele_zalia'},
-    { path: '/img/vyriskas_dzemperis.webp', name: 'vyriskas_dzemperis'},
+    { path: '/img/vyriskas_dzemperis.webp', name: 'vyriskas_dzemperis'}
+    
 
 
   ];
