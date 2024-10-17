@@ -76,7 +76,7 @@ export const Pictures = () => {
       <div className={style.picturesContainer}>
         <div className={style.titleContainer}>
           <h2 className={style.galleryTitle}>Nuotraukų Galerija</h2>
-          <h2 className={style.galleryTitle}>Neringos Siuvimo Studija</h2>
+          <h2 className={style.galleryTitleM}>Neringos Siuvimo Studija</h2>
           
           <Link to="/">
             <button className={style.btnBack}>Atgal</button>

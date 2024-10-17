@@ -23,6 +23,11 @@
   font-weight: bold;
   margin-bottom: 1rem;
 }
+.galleryTitleM {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
 .noScroll {
   overflow: hidden;
 }
@@ -80,6 +85,9 @@
   }
   .galleryTitle {
     font-size: 1.3rem;
+  }
+  .galleryTitleM{
+    display: none;
   }
   .btnBack {
     padding: 5px 10px;
