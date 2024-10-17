@@ -1,10 +1,10 @@
-import { Siulai, Zirkles } from '../svg';
+import {  Zirkles } from '../svg';
 import style from './Sewing.module.css';
 
 const PictureSewing = () => {
     return (<picture >
         <source srcSet="/siuvimas_750.webp" media="(max-width: 780px)" />
-        <img className={style.img} src="/siuvimas_900.webp" alt="suknelių siuvimas šiauliuose" />
+        <img className={style.img} src="/siuvimas_900.webp" loading='lazy' alt="suknelių siuvimas šiauliuose" />
     </picture>
     )
 };

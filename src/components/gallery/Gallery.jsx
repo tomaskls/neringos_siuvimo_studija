@@ -9,6 +9,7 @@ export const Pictures = () => {
   }, []);
 
   const image = [
+    { path: '/img/peteliske.webp', name: 'peteliske'},
     { path: '/img/pilkas_flisinis_dzemperis.webp', name: 'pilkas_flisinis_dzemperis' },
     { path: '/img/bliuzonas_intelektas.webp', name: 'bliuzonas_intelektas' },
     { path: '/img/ivairios_spalvos.webp', name: 'ivairios_spalvos' },
@@ -25,17 +26,20 @@ export const Pictures = () => {
     { path: '/img/placios_kelnes.webp', name: 'placios_kelnes' },
     { path: '/img/siltas_moteriskas_dzemperis.webp', name: 'siltas_moteriskas_dzemperis' },
     { path: '/img/skaitmenines_spaudos_audinio_suknele.webp', name: 'skaitmenines_spaudos_audinio_suknele' },
+    { path: '/img/pakabos.webp', name: 'pakabos'},
     { path: '/img/sportinio_tipo_trikotazine_suknele.webp', name: 'sportinio_tipo_trikotazine_suknele' },
     { path: '/img/svarkelis.webp', name: 'svarkelis' },
     { path: '/img/dekoracijos.webp', name: 'dekoracijos' },
     { path: '/img/deriniai.webp', name: 'deriniai' },
     { path: '/img/juoda_suknele.webp', name: 'juoda_suknele' },
     { path: '/img/laisvalaikio_kostiumelis.webp', name: 'laisvalaikio_kostiumelis' },
+    { path: '/img/suknele_zalia.webp', name: 'suknele_zalia'},
     { path: '/img/lininiai_marskiniai.webp', name: 'lininiai_marskiniai' },
     { path: '/img/medvilniniai_dzemperiai_su_gobtuvu.webp', name: 'medvilniniai_dzemperiai_su_gobtuvu' },
     { path: '/img/paltai.webp', name: 'paltai' },
     { path: '/img/progine_suknele.webp', name: 'progine_suknele' },
     { path: '/img/proginis_kostiumelis.webp', name: 'proginis_kostiumelis' },
+    { path: '/img/suknele_su_RASTAIS.webp', name: 'suknele_su_RASTAIS'},
     { path: '/img/Rudeninis_paltas.webp', name: 'Rudeninis_paltas' },
     { path: '/img/salikas_apykakle.webp', name: 'salikas_apykakle' },
     { path: '/img/stilizuotas_vilnonis_kostiumas.webp', name: 'stilizuotas_vilnonis_kostiumas' },
@@ -44,21 +48,17 @@ export const Pictures = () => {
     { path: '/img/suknele.webp', name: 'suknele' },
     { path: '/img/tapyta_suknele.webp', name: 'tapyta_suknele' },
     { path: '/img/trikotazine_suknele.webp', name: 'trikotazine_suknele' },
+    { path: '/img/adatos.webp', name: 'adatos' },
     { path: '/img/vilnone_suknele.webp', name: 'vilnone_suknele' },
     { path: '/img/viskozine_suknele.webp', name: 'viskozine_suknele' },
-    { path: '/img/adatos.webp', name: 'adatos' },
     { path: '/img/dzemperiai.webp', name: 'dzemperiai' },
-    { path: '/img/dzemperis.webp', name: 'dzemperis'},
-    { path: '/img/pakabos.webp', name: 'pakabos'},
-    { path: '/img/peteliske.webp', name: 'peteliske'},
     { path: '/img/siulai.webp', name: 'siulai'},
+    { path: '/img/dzemperis.webp', name: 'dzemperis'},
     { path: '/img/suknele_2.webp', name: 'suknele_2'},
-    { path: '/img/suknele_su_RASTAIS.webp', name: 'suknele_su_RASTAIS'},
-    { path: '/img/suknele_zalia.webp', name: 'suknele_zalia'},
     { path: '/img/vyriskas_dzemperis.webp', name: 'vyriskas_dzemperis'}
     
-
-
+    
+    
   ];
   const [selectedImage, setSelectedImage] = useState(null);
   const handleImageClick = (image) => {
@@ -76,6 +76,8 @@ export const Pictures = () => {
       <div className={style.picturesContainer}>
         <div className={style.titleContainer}>
           <h2 className={style.galleryTitle}>Nuotraukų Galerija</h2>
+          <h2 className={style.galleryTitle}>Neringos Siuvimo Studija</h2>
+          
           <Link to="/">
             <button className={style.btnBack}>Atgal</button>
           </Link>
