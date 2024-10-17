@@ -7,8 +7,8 @@ import style from './Price.module.css'
 // );
 const PictureRepair = () => {
     return (<picture >
-        <source srcSet="img/pakabos.webp" media="(max-width: 780px)" />
-        <img className={style.img} src="img/pakabos.webp" loading='lazy' alt="rūbų taisymas šiauliuose" />
+        <source srcSet="/pakabos_750.webp" media="(max-width: 780px)" />
+        <img className={style.img} src="/pakabos_750.webp" loading='lazy' alt="rūbų taisymas šiauliuose" />
     </picture>
     )
 };
