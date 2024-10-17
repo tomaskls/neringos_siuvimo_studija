@@ -8,7 +8,6 @@
   }
   .fbLink {
     display: flex;
-    padding: 10px;
     font-size: 1.3em;
     text-decoration: none;
     line-height: 1.5;
@@ -42,6 +41,9 @@
     align-items: flex-start;
     padding: 10px;
     gap: 10px;
+  }
+  .social h2{
+    margin-top: 10px;
   }
   .map {
     width: 100%;
