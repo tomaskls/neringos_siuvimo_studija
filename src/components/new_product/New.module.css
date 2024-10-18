@@ -48,7 +48,7 @@
 @media (min-width: 761px) {
   .container {
     display: flex;
-    padding-top: 30px;
+    padding-top: 10px;
     gap: 80px;
   }
   .img {

@@ -71,9 +71,6 @@ body {
   font-size: 400;
   font-style: italic;
 }
-html {
-  scroll-behavior: smooth;
-}
 @media (min-width: 761px) {
   body {
     background-color: whitesmoke;

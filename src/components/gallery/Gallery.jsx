@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
 import style from './Gallery.module.css';
-import { Link } from 'react-router-dom';
 
 export const Pictures = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Slinkti į puslapio viršų, kai komponentas užkraunamas
+    window.scrollTo(0, 0); 
   }, []);
 
   const image = [
@@ -70,11 +69,6 @@ export const Pictures = () => {
   return (
     <>
       <div className={style.picturesContainer}>
-        <div className={style.titleContainer}>
-          <h2 className={style.galleryTitle}>Nuotraukų Galerija</h2>
-          <h2 className={style.galleryTitleM}>Neringos Siuvimo Studija</h2>
-          <Link to="/"><button className={style.btnBack}>Atgal</button></Link>
-        </div>
         <div className={style.imageGrid}>
           {image.map((image, index) => (
             <img

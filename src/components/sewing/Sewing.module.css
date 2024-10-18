@@ -35,7 +35,7 @@
   .container {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 30px;
+    padding-top: 10px;
     gap: 80px;
   }
   .img {

@@ -1,5 +1,7 @@
 import { Adata } from '../svg';
 import style from './About.module.css';
+import { useEffect } from 'react';
+
 
 export const PictureAbout = () => {
     return (<picture >
@@ -10,6 +12,9 @@ export const PictureAbout = () => {
 };
 
 export function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []);
     return (
         <div id='about' className={style.container}>
             <div>

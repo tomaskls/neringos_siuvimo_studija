@@ -60,33 +60,54 @@ export const SidebarMenu = () => {
         </button>
         <nav className={style.sidebarNav}>
           <ul>
-            <li>
-              <Scissors />
-              <a href="#about" onClick={closeMenu}>Pagrindinis</a></li>
-            <li>
-              <Scissors />
-              <a href="#repair" onClick={closeMenu}>Taisymas</a></li>
-            <li>
-              <Scissors />
-              <a href="#new" onClick={closeMenu}>Naujiena!!!</a></li>
-            <li>
-              <Scissors />
-              <a href="#sewing" onClick={closeMenu}>Siuvimas</a></li>
-            <li>
-              <Scissors />
-              <a href="#design" onClick={closeMenu}>Modeliavimas</a></li>
             <li className={style.liGallery}>
               <Scissors />
-              <a href="#price" onClick={closeMenu}>Kainos</a></li>
+              <Link to="/">
+                <span onClick={closeMenu}>Pagrindinis</span>
+              </Link>
+            </li>
+            <li className={style.liGallery}>
+              <Scissors />
+              <Link to="/repair">
+                <span onClick={closeMenu}>Taisymas</span>
+              </Link>
+            </li>
+            <li className={style.liGallery}>
+              <Scissors />
+              <Link to="/product">
+                <span onClick={closeMenu}>Naujiena!</span>
+              </Link>
+            </li>
+            <li className={style.liGallery}>
+              <Scissors />
+              <Link to="/sewing">
+                <span onClick={closeMenu}>Siuvimas</span>
+              </Link>
+            </li>
+            <li className={style.liGallery}>
+              <Scissors />
+              <Link to="/design">
+                <span onClick={closeMenu}>Modeliavimas</span>
+              </Link>
+            </li>
             <li className={style.liGallery}>
               <Scissors />
               <Link to="/gallery">
                 <span onClick={closeMenu}>Galerija</span>
               </Link>
             </li>
-            <li>
+            <li className={style.liGallery}>
               <Scissors />
-              <a href="#contacts" onClick={closeMenu}>Kontaktai</a></li>
+              <Link to="/prices">
+                <span onClick={closeMenu}>Kainos</span>
+              </Link>
+            </li>
+            <li className={style.liGallery}>
+              <Scissors />
+              <Link to="/contacts">
+                <span onClick={closeMenu}>Kontaktai</span>
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

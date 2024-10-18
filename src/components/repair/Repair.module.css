@@ -39,7 +39,7 @@
   .container {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 50px;
+    padding-top: 10px;
     gap: 80px;
   }
   .img {

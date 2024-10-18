@@ -2,6 +2,7 @@ import style from './New.module.css';
 import { Link } from 'react-router-dom';
 import { useTouch } from '../Usetouch';
 import { Smasina } from '../svg';
+import { useEffect } from 'react';
 
 const PictureNew = () => {
    return ( <picture >
@@ -13,6 +14,9 @@ const PictureNew = () => {
 
 export function New() {
     const { isTouched, handleTouchStart, handleTouchEnd } = useTouch();
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []);
     return (
         <div id='new' className={style.container}>
             <div>
