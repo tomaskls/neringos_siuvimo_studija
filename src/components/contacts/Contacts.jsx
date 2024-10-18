@@ -12,7 +12,7 @@ export function Contacts() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIframeLoaded(true);
-        }, 1000); // Įkelti iframe po 1 sekundės
+        }, 1000); 
 
         return () => clearTimeout(timer);
     }, []);
@@ -38,7 +38,7 @@ export function Contacts() {
                 <a href="tel:+37060055316">Skambinkite tel: +370 600 55316</a>
                 <p>Mus rasite adresu: <br />Vytauto g. 8O <br />Šiauliai</p>
                 <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-           </div>
+            </div>
             {iframeLoaded && (
                 <iframe
                     className={style.map}
@@ -49,7 +49,7 @@ export function Contacts() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                     title="NERINGOS SIUVIMO STUDIJA žemėlapis"
+                    title="NERINGOS SIUVIMO STUDIJA žemėlapis"
                 ></iframe>
             )}
         </div>

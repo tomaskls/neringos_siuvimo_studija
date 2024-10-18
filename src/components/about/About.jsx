@@ -9,7 +9,6 @@ export const PictureAbout = () => {
     )
 };
 
-
 export function About() {
     return (
         <div id='about' className={style.container}>

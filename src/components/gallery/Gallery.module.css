@@ -2,11 +2,11 @@
   padding: 1rem;
   background-color: var(--back-color);
 }
-.titleContainer{
+.titleContainer {
   display: flex;
   justify-content: space-between;
 }
-.btnBack{
+.btnBack {
   padding: 5px 30px;
   border-radius: 1px solid var(--heading-color);
   border-radius: 15px;
@@ -14,7 +14,7 @@
   background-color: var(--back-color);
   font-size: 1em;
 }
-.btnBack:hover{
+.btnBack:hover {
   background-color: var(--heading-color);
   color: aliceblue;
 }
@@ -86,7 +86,7 @@
   .galleryTitle {
     font-size: 1.3rem;
   }
-  .galleryTitleM{
+  .galleryTitleM {
     display: none;
   }
   .btnBack {

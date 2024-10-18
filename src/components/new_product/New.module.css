@@ -41,7 +41,7 @@
   .touched {
     background-color: var(--heading-color);
   }
-  .svg{
+  .svg {
     width: 20px;
   }
 }
@@ -64,17 +64,17 @@
     gap: 40px;
     line-height: 1.5;
   }
-  .svg{
+  .svg {
     width: 100px;
   }
-  .plink{
+  .plink {
     text-decoration: none;
     color: var(--heading-color);
     border: 2px solid var(--heading-color);
     border-radius: 15px;
     padding: 5px 13px;
   }
-  .plink:hover{
+  .plink:hover {
     background-color: var(--heading-color);
     color: aliceblue;
   }
