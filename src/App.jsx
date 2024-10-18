@@ -10,14 +10,10 @@ export function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/gallery"
-            element={
-              <Suspense fallback={<div>Įkeliama...</div>}>
-                <Gallery />
-              </Suspense>
-            }
-          />
+          <Route path="/gallery" element={<Suspense fallback={<div>Įkeliama...</div>}>
+            <Gallery />
+          </Suspense>
+          } />
         </Routes>
       </Router>
     </>

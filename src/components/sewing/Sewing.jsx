@@ -8,8 +8,6 @@ const PictureSewing = () => {
     </picture>
     )
 };
-
-
 export function Sewing() {
     return (
         <div id='sewing' className={style.container}>

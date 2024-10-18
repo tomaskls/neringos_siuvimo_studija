@@ -12,7 +12,6 @@ const ScissorsIcon = () => (
     )
 };
 export function Repair() {
-
     return (
         <div id='repair' className={style.container}>
             <div><PictureRepair /></div>
