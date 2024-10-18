@@ -36,8 +36,8 @@
     height: 50px;
   }
 }
-@media (min-width: 761px){
-  .mobileHeader{
+@media (min-width: 761px) {
+  .mobileHeader {
     display: none;
   }
 }

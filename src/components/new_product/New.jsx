@@ -13,7 +13,6 @@ const PictureNew = () => {
 
 export function New() {
     const { isTouched, handleTouchStart, handleTouchEnd } = useTouch();
-
     return (
         <div id='new' className={style.container}>
             <div>

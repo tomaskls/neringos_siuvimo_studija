@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
-import styles from './Desktop.module.css';
+import style from './Desktop.module.css';
 import { Link } from 'react-router-dom';
 
-const HeaderD = () => {
+export const HeaderD = () => {
     const titleRef = useRef(null);
     const navRef = useRef(null);
     const neringosRef = useRef(null);
@@ -13,8 +13,8 @@ const HeaderD = () => {
         const neringos = neringosRef.current;
 
         if (title) {
-            title.innerHTML = title.textContent.replace(/\S/g, `<span class='${styles.letter}'>$&</span>`);
-            const letters = title.querySelectorAll(`.${styles.letter}`);
+            title.innerHTML = title.textContent.replace(/\S/g, `<span class='${style.letter}'>$&</span>`);
+            const letters = title.querySelectorAll(`.${style.letter}`);
             letters.forEach((letter, index) => {
                 letter.style.animationDelay = `${index * 0.2}s`;
             });
@@ -23,13 +23,13 @@ const HeaderD = () => {
         const handleScroll = () => {
             const navTop = nav.getBoundingClientRect().top;
             if (window.scrollY > navTop) {
-                nav.classList.add(styles.fixed);
-                nav.classList.add(styles.scrolled);
-                neringos.classList.add(styles.visible);
+                nav.classList.add(style.fixed);
+                nav.classList.add(style.scrolled);
+                neringos.classList.add(style.visible);
             } else {
-                nav.classList.remove(styles.fixed);
-                nav.classList.remove(styles.scrolled);
-                neringos.classList.remove(styles.visible);
+                nav.classList.remove(style.fixed);
+                nav.classList.remove(style.scrolled);
+                neringos.classList.remove(style.visible);
             }
         };
 
@@ -40,26 +40,21 @@ const HeaderD = () => {
     }, []);
 
     return (
-        <header className={styles.header}>
-            <h1 ref={titleRef} className={styles.title}>Neringos Siuvimo Studija</h1>
-            <nav ref={navRef} className={styles.nav}>
-                <div className={styles.navContent}>
-                    <h2 ref={neringosRef} className={styles.neringos}>Neringos Siuvimo Studija</h2>
-                    <a href="#new"><button className={styles.navButton}>Naujiena!!!</button></a>
-                    <a href="#repair"><button className={styles.navButton}>Taisymas</button></a>
-                    <a href="#sewing"><button className={styles.navButton}>Siuvimas</button></a>
-                    <Link to="/gallery">
-                        <button className={styles.navButton}>Galerija</button>
-                    </Link>
-                    <a href="#design"><button className={styles.navButton}>Modeliavimas</button> </a>
-                    <a href="#price"><button className={styles.navButton}>Kainos</button> </a>
-                    <a href="#contacts"><button className={styles.navButton}>Kontaktai</button></a>
-
-
+        <header className={style.header}>
+            <h1 ref={titleRef} className={style.title}>Neringos Siuvimo Studija</h1>
+            <nav ref={navRef} className={style.nav}>
+                <div className={style.navContent}>
+                    <h2 ref={neringosRef} className={style.neringos}><a href="#about">Neringos Siuvimo Studija</a></h2>
+                    <a href="#new"><button className={style.navButton}>Naujiena!!!</button></a>
+                    <a href="#repair"><button className={style.navButton}>Taisymas</button></a>
+                    <a href="#sewing"><button className={style.navButton}>Siuvimas</button></a>
+                    <Link to="/gallery"><button className={style.navButton}>Galerija</button></Link>
+                    <a href="#design"><button className={style.navButton}>Modeliavimas</button> </a>
+                    <a href="#price"><button className={style.navButton}>Kainos</button> </a>
+                    <a href="#contacts"><button className={style.navButton}>Kontaktai</button></a>
                 </div>
             </nav>
         </header>
     );
 };
 
-export default HeaderD;
