@@ -1,4 +1,4 @@
-# Neringa's Sewing Studio
+# Neringos Siuvimo Studija
 
 This project is to create a website for a Sewing Studio that provides high-quality clothing repair and sewing services in Šiauliai. The website offers the possibility to review sewing services, see examples of completed work, and get in touch for inquiries.
 
