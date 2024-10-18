@@ -13,25 +13,6 @@
   position: relative;
   z-index: 2;
 }
-.letter {
-  display: inline-block;
-  opacity: 0;
-  animation: stitchIn 1s forwards;
-}
-@keyframes stitchIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  50% {
-    opacity: 0.5;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 .nav {
   display: flex;
   justify-content: center;

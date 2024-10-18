@@ -3,23 +3,13 @@ import style from './Desktop.module.css';
 import { Link } from 'react-router-dom';
 
 export const HeaderD = () => {
-    const titleRef = useRef(null);
     const navRef = useRef(null);
     const neringosRef = useRef(null);
 
     useEffect(() => {
-        const title = titleRef.current;
         const nav = navRef.current;
         const neringos = neringosRef.current;
-
-        if (title) {
-            title.innerHTML = title.textContent.replace(/\S/g, `<span class='${style.letter}'>$&</span>`);
-            const letters = title.querySelectorAll(`.${style.letter}`);
-            letters.forEach((letter, index) => {
-                letter.style.animationDelay = `${index * 0.2}s`;
-            });
-        }
-
+    
         const handleScroll = () => {
             const navTop = nav.getBoundingClientRect().top;
             if (window.scrollY > navTop) {
@@ -32,7 +22,7 @@ export const HeaderD = () => {
                 neringos.classList.remove(style.visible);
             }
         };
-
+    
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -41,7 +31,7 @@ export const HeaderD = () => {
 
     return (
         <header className={style.header}>
-            <h1 ref={titleRef} className={style.title}>Neringos Siuvimo Studija</h1>
+            <h1 className={style.title}>Neringos Siuvimo Studija</h1>
             <nav ref={navRef} className={style.nav}>
                 <div className={style.navContent}>
                     <h2 ref={neringosRef} className={style.neringos}><a href="#about">Neringos Siuvimo Studija</a></h2>
