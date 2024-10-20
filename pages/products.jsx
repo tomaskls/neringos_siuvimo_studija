@@ -2,8 +2,8 @@ import { Footer } from "../src/components/footer/Footer"
 import { Header } from "../src/components/header/Header"
 import { SidebarMenu } from "../src/components/sideMenu/SideMenu"
 import style from '../src/components/main/Main.module.css';
-import { New } from "../src/components/new_product/New";
 import { Space } from "../src/components/Space";
+import { NewProduct } from "../src/components/new_product/Newproduct";
 
 
 export function Product() {
@@ -14,7 +14,7 @@ export function Product() {
       <div className={style.mainContainer}>
         <SidebarMenu />
         <Space />
-        <New />
+        <NewProduct />
         <Footer />
       </div>
     </main>
