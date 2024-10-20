@@ -5,6 +5,7 @@ import style from '../src/components/main/Main.module.css';
 import { Sewing } from "../src/components/sewing/Sewing";
 import { Design } from "../src/components/design/Design";
 import { Repair } from "../src/components/repair/Repair";
+import { Space } from "../src/components/Space";
 
 
 export function Sew() {
@@ -14,6 +15,7 @@ export function Sew() {
     <main className={style.merriweatherRegular}>
       <div className={style.mainContainer}>
         <SidebarMenu />
+        <Space />
         <Sewing />
         <Design />
         <Repair />

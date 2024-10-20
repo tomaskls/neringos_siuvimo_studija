@@ -75,7 +75,7 @@ export const SidebarMenu = () => {
             <li className={style.liGallery}>
               <Scissors />
               <Link to="/product">
-                <span onClick={closeMenu}>Naujiena!</span>
+                <span onClick={closeMenu}>Džemperiai</span>
               </Link>
             </li>
             <li className={style.liGallery}>

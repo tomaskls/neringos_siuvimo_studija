@@ -6,6 +6,7 @@ import { Repair } from "../src/components/repair/Repair";
 import { Sewing } from "../src/components/sewing/Sewing";
 import { New } from "../src/components/new_product/New";
 import { Header } from "../src/components/header/Header";
+import { Space } from "../src/components/Space";
 
 
 export function Home() {
@@ -15,6 +16,7 @@ export function Home() {
     <main className={style.merriweatherRegular}>
       <div className={style.mainContainer}>
         <SidebarMenu />
+        <Space />
         <About />
         <Repair />
         <New />

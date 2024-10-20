@@ -8,7 +8,6 @@
   .container {
     max-width: 100%;
     height: auto;
-    scroll-margin-top: 90px;
   }
   .img {
     max-width: 100%;
@@ -32,7 +31,7 @@
     text-align: justify;
   }
   .svg {
-    width: 20px;
+   display: none;
   }
 }
 @media (min-width: 761px) {
@@ -56,6 +55,6 @@
     line-height: 1.5;
   }
   .svg {
-    width: 100px;
+   display: none;
   }
 }
