@@ -1,7 +1,8 @@
+import style from './main/Main.module.css'
 
 export function Space() {
     return (
-        <div style={{ height: '68px', width: '100%' }}></div>
+        <div className={style.space}></div>
 
     );
 }

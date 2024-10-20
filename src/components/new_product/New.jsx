@@ -18,6 +18,7 @@ export function New() {
         window.scrollTo(0, 0); 
       }, []);
     return (
+        <>
         <div id='new' className={style.container}>
             <div>
                 <PictureNew />
@@ -38,5 +39,13 @@ export function New() {
                 <div className={style.svg}><Smasina /></div>
             </div>
         </div>
+        <div className={style.fotoContainer}>
+            <img className={style.img} src="/img/dzemperis.webp" alt="" />
+            <img className={style.img} src="/img/moteriskas_flisinis_dzemperis.webp" alt="" />
+            <img className={style.img} src="/img/pilkas_flisinis_dzemperis.webp" alt="" />
+            <img className={style.img} src="/img/siltas_moteriskas_dzemperis.webp" alt="" />
+            <img className={style.img} src="/img/vyriskas_dzemperis.webp" alt="" />
+        </div>
+        </>
     );
 }
