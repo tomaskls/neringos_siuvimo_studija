@@ -1,15 +1,15 @@
-import { About } from "../src/components/about/About"
 import { Footer } from "../src/components/footer/Footer"
+import { Header } from "../src/components/header/Header"
 import { SidebarMenu } from "../src/components/sideMenu/SideMenu"
 import style from '../src/components/main/Main.module.css';
 import { Repair } from "../src/components/repair/Repair";
+import { Design } from "../src/components/design/Design";
 import { Sewing } from "../src/components/sewing/Sewing";
 import { New } from "../src/components/new_product/New";
-import { Header } from "../src/components/header/Header";
 import { Space } from "../src/components/Space";
 
 
-export function Home() {
+export function Repairing() {
   return (
     <>
         <Header />
@@ -17,10 +17,10 @@ export function Home() {
       <div className={style.mainContainer}>
         <SidebarMenu />
         <Space />
-        <About />
         <Repair />
-        <New />
+        <Design />
         <Sewing />
+        <New />
         <Footer />
       </div>
     </main>

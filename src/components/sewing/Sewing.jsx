@@ -1,5 +1,6 @@
 import {  Zirkles } from '../svg';
 import style from './Sewing.module.css';
+import { useEffect } from 'react';
 
 const PictureSewing = () => {
     return (<picture >
@@ -9,6 +10,10 @@ const PictureSewing = () => {
     )
 };
 export function Sewing() {
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []);
+
     return (
         <div id='sewing' className={style.container}>
             <div><PictureSewing /></div>

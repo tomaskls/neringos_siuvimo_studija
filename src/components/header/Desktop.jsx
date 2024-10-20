@@ -34,14 +34,15 @@ export const HeaderD = () => {
             <h1 className={style.title}>Neringos Siuvimo Studija</h1>
             <nav ref={navRef} className={style.nav}>
                 <div className={style.navContent}>
-                    <h2 ref={neringosRef} className={style.neringos}><a href="#about">Neringos Siuvimo Studija</a></h2>
-                    <a href="#new"><button className={style.navButton}>Naujiena!!!</button></a>
-                    <a href="#repair"><button className={style.navButton}>Taisymas</button></a>
-                    <a href="#sewing"><button className={style.navButton}>Siuvimas</button></a>
+                    <h2 ref={neringosRef} className={style.neringos}>Neringos Siuvimo Studija</h2>
+                    <Link to="/"><button className={style.navButton}>Pagrindinis</button></Link>
+                    <Link to="/product"><button className={style.navButton}>Naujiena!</button></Link>
+                    <Link to="/repair"><button className={style.navButton}>Taisymas</button></Link>
+                    <Link to="/sewing"><button className={style.navButton}>Siuvimas</button></Link>
                     <Link to="/gallery"><button className={style.navButton}>Galerija</button></Link>
-                    <a href="#design"><button className={style.navButton}>Modeliavimas</button> </a>
-                    <a href="#price"><button className={style.navButton}>Kainos</button> </a>
-                    <a href="#contacts"><button className={style.navButton}>Kontaktai</button></a>
+                    {/* <Link to="/design"><button className={style.navButton}>Pavyzdziai</button></Link> */}
+                    <Link to="/prices"><button className={style.navButton}>Kainos</button></Link>
+                    <Link to="/contacts"><button className={style.navButton}>Kontaktai</button></Link>
                 </div>
             </nav>
         </header>

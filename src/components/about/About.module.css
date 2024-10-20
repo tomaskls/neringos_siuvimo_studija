@@ -5,8 +5,6 @@
   .container {
     max-width: 100%;
     height: auto;
-    margin-top: 90px;
-    scroll-margin-top: 90px;
   }
   .img {
     width: 100%;
@@ -30,15 +28,15 @@
     text-align: justify;
   }
   .svg {
-    width: 20px;
+    display: none;
   }
 }
 @media (min-width: 761px) {
   .container {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
     gap: 80px;
+    padding-top: 10px;
   }
   .content {
     width: 400px;

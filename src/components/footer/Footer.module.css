@@ -1,9 +1,9 @@
 .footer{
-    background-color: var(--back-color);
+    background-color: #f1d9abc2;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: -10px;
+    margin-top: -9px;
 }

@@ -1,15 +1,12 @@
-import { About } from "../src/components/about/About"
 import { Footer } from "../src/components/footer/Footer"
+import { Header } from "../src/components/header/Header"
 import { SidebarMenu } from "../src/components/sideMenu/SideMenu"
 import style from '../src/components/main/Main.module.css';
-import { Repair } from "../src/components/repair/Repair";
-import { Sewing } from "../src/components/sewing/Sewing";
-import { New } from "../src/components/new_product/New";
-import { Header } from "../src/components/header/Header";
+import { Price } from "../src/components/price/Price";
 import { Space } from "../src/components/Space";
 
 
-export function Home() {
+export function Pricing() {
   return (
     <>
         <Header />
@@ -17,10 +14,7 @@ export function Home() {
       <div className={style.mainContainer}>
         <SidebarMenu />
         <Space />
-        <About />
-        <Repair />
-        <New />
-        <Sewing />
+        <Price />
         <Footer />
       </div>
     </main>
