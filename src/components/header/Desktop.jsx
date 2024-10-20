@@ -40,7 +40,7 @@ export const HeaderD = () => {
                     <Link to="/repair"><button className={style.navButton}>Taisymas</button></Link>
                     <Link to="/sewing"><button className={style.navButton}>Siuvimas</button></Link>
                     <Link to="/gallery"><button className={style.navButton}>Galerija</button></Link>
-                    <Link to="/design"><button className={style.navButton}>Modeliavimas</button></Link>
+                    {/* <Link to="/design"><button className={style.navButton}>Pavyzdziai</button></Link> */}
                     <Link to="/prices"><button className={style.navButton}>Kainos</button></Link>
                     <Link to="/contacts"><button className={style.navButton}>Kontaktai</button></Link>
                 </div>

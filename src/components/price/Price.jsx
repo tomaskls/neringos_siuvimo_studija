@@ -28,7 +28,8 @@ export function Price() {
                         <p className={style.p}>Kelnių trumpinimas su atvartais - 10€</p>
                         <p className={style.p}>Sportiniu kelnių su užtrauktukais - 12€</p>
                         <p className={style.p}>Kelnių trumpinimas paslėptu dygsniu - 10€</p>
-                        <p className={style.p}>Kelnių siaurinimas - 20-40€</p>
+                        <p className={style.p}>Kelnių siaurinimas per liemenį - 15-20€</p>
+                        <p className={style.p}>Kelnių siaurinimas - 20-30€</p>
                     </div>
                 </div>
             </div>
