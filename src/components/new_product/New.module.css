@@ -77,13 +77,13 @@
     background-color: var(--heading-color);
     color: aliceblue;
   }
-  .fotoContainer{
+  .fotoContainer {
     background-color: var(--back-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .fotoContainer img{
+  .fotoContainer img {
     padding-top: 5px;
   }
 }

@@ -1,9 +1,13 @@
-.footer{
-    background-color: #f1d9abc2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.footer {
+  background-color: #f1d9abc2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@media (max-width: 760px) {
+  .footer{
     margin-top: -9px;
+  }
 }

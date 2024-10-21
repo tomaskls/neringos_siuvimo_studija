@@ -9,7 +9,7 @@ export const HeaderD = () => {
     useEffect(() => {
         const nav = navRef.current;
         const neringos = neringosRef.current;
-    
+
         const handleScroll = () => {
             const navTop = nav.getBoundingClientRect().top;
             if (window.scrollY > navTop) {
@@ -22,7 +22,7 @@ export const HeaderD = () => {
                 neringos.classList.remove(style.visible);
             }
         };
-    
+
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);

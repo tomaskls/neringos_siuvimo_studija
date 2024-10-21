@@ -1,8 +1,7 @@
 @media (max-width: 760px) {
   .desktopHeader {
     display: none;
-  
-}
+  }
 }
 @media (min-width: 761px) {
   .mobileHeader {

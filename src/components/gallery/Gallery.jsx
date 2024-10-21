@@ -3,7 +3,7 @@ import style from './Gallery.module.css';
 
 export const Pictures = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); 
+    window.scrollTo(0, 0);
   }, []);
 
   const image = [

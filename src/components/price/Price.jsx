@@ -11,8 +11,8 @@ const PictureRepair = () => {
 };
 export function Price() {
     useEffect(() => {
-        window.scrollTo(0, 0); 
-      }, []);
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div id='price' className={style.container}>

@@ -2,7 +2,6 @@ import { Adata } from '../svg';
 import style from './About.module.css';
 import { useEffect } from 'react';
 
-
 export const PictureAbout = () => {
     return (<picture >
         <source srcSet="/siuvimo_studija_siauliuose_750.webp" media="(max-width: 780px)" />
@@ -10,11 +9,10 @@ export const PictureAbout = () => {
     </picture>
     )
 };
-
 export function About() {
     useEffect(() => {
-        window.scrollTo(0, 0); 
-      }, []);
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div id='about' className={style.container}>
             <div>

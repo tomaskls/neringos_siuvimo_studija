@@ -42,16 +42,14 @@
 }
 .neringos {
   display: none;
-  
 }
-.neringos a{
+.neringos a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: bold;
   flex-grow: 1;
   padding-top: 5px;
   padding-bottom: 5px;
-
 }
 .neringos.visible {
   display: block;
