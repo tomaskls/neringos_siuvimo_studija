@@ -26,17 +26,16 @@
   .container {
     max-width: 100%;
     height: auto;
-    scroll-margin-top: 90px;
   }
   .img {
     max-width: 100%;
     height: auto;
   }
   .content {
-    margin-left: 20px;
+    margin-left: 5px;
   }
   .content2 {
-    margin-left: 20px;
+    margin-left: 5px;
   }
   .h2 {
     font-size: 1.5em;
