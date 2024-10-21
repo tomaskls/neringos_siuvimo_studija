@@ -8,9 +8,11 @@ export const Pictures = () => {
 
   const image = [
     { path: '/img/peteliske.webp', name: 'peteliske' },
+    { path: '/img/suknele_su_ornamentais.webp', name: 'suknele_su_ornamentais' },
     { path: '/img/pilkas_flisinis_dzemperis.webp', name: 'pilkas_flisinis_dzemperis' },
     { path: '/img/bliuzonas_intelektas.webp', name: 'bliuzonas_intelektas' },
     { path: '/img/ivairios_spalvos.webp', name: 'ivairios_spalvos' },
+    { path: '/img/melynas_dzemperis.webp', name: 'vyriskas_dzemperis' },
     { path: '/img/apykakle.webp', name: 'apykakle' },
     { path: '/img/custom_diszaino_suknele.webp', name: 'custom_diszaino_suknele' },
     { path: '/img/demisezoninis_paltas.webp', name: 'demisezoninis_paltas' },
@@ -29,6 +31,7 @@ export const Pictures = () => {
     { path: '/img/svarkelis.webp', name: 'svarkelis' },
     { path: '/img/dekoracijos.webp', name: 'dekoracijos' },
     { path: '/img/deriniai.webp', name: 'deriniai' },
+    { path: '/img/suknele_su_ornamentais_2.webp', name: 'suknele_su_ornamentais' },
     { path: '/img/juoda_suknele.webp', name: 'juoda_suknele' },
     { path: '/img/laisvalaikio_kostiumelis.webp', name: 'laisvalaikio_kostiumelis' },
     { path: '/img/suknele_zalia.webp', name: 'suknele_zalia' },
@@ -42,6 +45,7 @@ export const Pictures = () => {
     { path: '/img/salikas_apykakle.webp', name: 'salikas_apykakle' },
     { path: '/img/stilizuotas_vilnonis_kostiumas.webp', name: 'stilizuotas_vilnonis_kostiumas' },
     { path: '/img/suknele_1.webp', name: 'suknele_1' },
+    { path: '/img/zalias_dzemperis.webp', name: 'vyriskas_dzemperis' },
     { path: '/img/suknele_su_rombais.webp', name: 'suknele_su_rombais' },
     { path: '/img/suknele.webp', name: 'suknele' },
     { path: '/img/tapyta_suknele.webp', name: 'tapyta_suknele' },
@@ -53,7 +57,7 @@ export const Pictures = () => {
     { path: '/img/siulai.webp', name: 'siulai' },
     { path: '/img/dzemperis.webp', name: 'dzemperis' },
     { path: '/img/suknele_2.webp', name: 'suknele_2' },
-    { path: '/img/vyriskas_dzemperis.webp', name: 'vyriskas_dzemperis' }
+    { path: '/img/vyriskas_dzemperis.webp', name: 'vyriskas_dzemperis' },
   ];
   const [selectedImage, setSelectedImage] = useState(null);
   const handleImageClick = (image) => {

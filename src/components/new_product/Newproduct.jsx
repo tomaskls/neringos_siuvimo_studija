@@ -29,10 +29,11 @@ export function NewProduct() {
                 </div>
             </div>
             <div className={style.fotoContainer}>
+                <img className={style.img} src="/img/zalias_dzemperis.webp" alt="" />
                 <img className={style.img} src="/img/dzemperis.webp" alt="" />
+                <img className={style.img} src="/img/melynas_dzemperis.webp" alt="" />
                 <img className={style.img} src="/img/moteriskas_flisinis_dzemperis.webp" alt="" />
                 <img className={style.img} src="/img/pilkas_flisinis_dzemperis.webp" alt="" />
-                <img className={style.img} src="/img/siltas_moteriskas_dzemperis.webp" alt="" />
                 <img className={style.img} src="/img/vyriskas_dzemperis.webp" alt="" />
             </div>
         </>
