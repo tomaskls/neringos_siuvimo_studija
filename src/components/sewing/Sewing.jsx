@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const PictureSewing = () => {
     return (<picture >
         <source srcSet="/rubu_siuvimas_700.webp" media="(max-width: 780px)" />
-        <img className={style.img} src="/rubu_siuvimas_900.webp" loading='lazy' alt="siuvykla šiauliuose" />
+        <img className={style.img} src="/rubu_siuvimas_900.webp" alt="siuvykla šiauliuose" />
     </picture>
     )
 };

@@ -8,7 +8,7 @@ const ScissorsIcon = () => (
 const PictureRepair = () => {
     return (<picture >
         <source srcSet="/taisymas.png" media="(max-width: 780px)" />
-        <img className={style.img} src="/taisymas.png" loading='lazy' alt="rūbų taisymas šiauliuose" />
+        <img className={style.img} src="/taisymas.png" alt="rūbų taisymas šiauliuose" />
     </picture>
     )
 };
