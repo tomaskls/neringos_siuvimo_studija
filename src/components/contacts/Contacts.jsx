@@ -15,7 +15,7 @@ export function Contacts() {
             <div className={style.mainContainer}>
             <div className={style.social}>
                 <a className={`${style.fbLink} ${isFbTouched ? style.touched : ''}`}
-                    href="https://www.facebook.com/share/yoFQcUC5cKKnLSb7/"
+                    href="https://www.facebook.com/neringossiuvimostudija"
                     target="_blank"
                     onTouchStart={handleFbTouchStart}
                     onTouchEnd={handleFbTouchEnd}>Sekite mus Facebook<img src={Fbicon} alt="facebook icon" />
