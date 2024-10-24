@@ -77,9 +77,9 @@ export function Price() {
                 </div>
                 <div className={style.list}>
                     <h3 className={style.h3}>Pamušalų keitimas:</h3>
-                    <p className={style.p}>Paltui - 30€</p>
-                    <p className={style.p}>Puspalčiui - 25€</p>
-                    <p className={style.p}>Švarkui - 20.4924C20€</p>
+                    <p className={style.p}>Paltui - 35€</p>
+                    <p className={style.p}>Puspalčiui - 30€</p>
+                    <p className={style.p}>Švarkui - 30€</p>
                     <p className={style.p}>Sijonui - 15€</p>
                     <p className={style.p}>Suknelei - 15€</p>
                     <p className={style.p}>Striukei - 25-35€</p>
