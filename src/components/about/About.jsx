@@ -19,8 +19,8 @@ export function About() {
                 <PictureAbout />
             </div>
             <div className={style.content}>
-                <h2 className={style.h2}>Apie Mus</h2>
-                <p className={style.p}>Siuvimo studija, kurioje siūlai visada randa kelią namo. Nuo 2007 metų esame Šiaulių siuvimo meistrai, sugebantys iš bet kokios medžiagos sukurti šedevrą. Kai mūsų studija atveria duris, siūlai pradeda dainuoti, o adatos - šokti. Ateikite ir mes jums parodysime, kaip galima prikelti net seniausią audinį naujam gyvenimui!</p>
+                <h2 className={style.h2}>Apie Studiją</h2>
+                <p className={style.p}>Labas, mano vardas Neringa. Esu profesionali siuvimo meistrė, konstruktorė ir modeliuotoja. Jau nuo 2007 m. siuvykla teikia rūbų siuvimo ir taisymo paslaugas. Daugiametė patirtis rodo, kad galiu jums suteikti kvalifikuotą konsultaciją apie audinius, jų pasirinkimą ir pritaikymą pagal figūrą <br /><br /> Kviečiu apsilankyti ir kreiptis visais siuvimo ir rūbų taisymo klausimais. </p>
                 <div className={style.svg} ><Adata /></div>
             </div>
         </div>
