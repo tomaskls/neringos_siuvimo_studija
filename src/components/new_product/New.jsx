@@ -5,8 +5,8 @@ import { useEffect } from 'react';
 
 const PictureNew = () => {
     return (<picture >
-        <source srcSet="/siltas_flisinis_dzemperis_750.webp" media="(max-width: 780px)" />
-        <img className={style.img} src="/siltas_flisinis_dzemperis_900.webp" alt="šiltas flisinis džemperis" />
+        <source srcSet="/dzemperiai_750.webp" media="(max-width: 780px)" />
+        <img className={style.img} src="/dzemperiai_900.webp" alt="šiltas flisinis džemperis" />
     </picture>
     )
 };
