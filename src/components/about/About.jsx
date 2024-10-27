@@ -20,7 +20,7 @@ export function About() {
             </div>
             <div className={style.content}>
                 <h2 className={style.h2}>Apie Studiją</h2>
-                <p className={style.p}>Labas, mano vardas Neringa. Esu profesionali siuvimo meistrė, konstruktorė ir modeliuotoja. Jau nuo 2007 m. siuvykla teikia rūbų siuvimo ir taisymo paslaugas. Daugiametė patirtis rodo, kad galiu jums suteikti kvalifikuotą konsultaciją apie audinius, jų pasirinkimą ir pritaikymą pagal figūrą <br /><br /> Kviečiu apsilankyti ir kreiptis visais siuvimo ir rūbų taisymo klausimais. </p>
+                <p className={style.p}>Labas, mano vardas Neringa. Esu profesionali siuvimo meistrė, konstruktorė ir modeliuotoja. Nuo 2007 m. siuvykla teikia rūbų siuvimo ir taisymo paslaugas. Daugiametė patirtis užtikrina, kad jums bus suteikta kvalifikuota konsultacija apie audinius, jų pasirinkimą ir pritaikymą pagal figūrą <br /><br /> Kviečiu apsilankyti ir kreiptis visais siuvimo ir rūbų taisymo klausimais. </p>
                 <div className={style.svg} ><Adata /></div>
             </div>
         </div>
