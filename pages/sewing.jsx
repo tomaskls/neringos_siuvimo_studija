@@ -4,7 +4,6 @@ import { SidebarMenu } from "../src/components/sideMenu/SideMenu"
 import style from '../src/components/main/Main.module.css';
 import { Sewing } from "../src/components/sewing/Sewing";
 import { Design } from "../src/components/design/Design";
-import { Repair } from "../src/components/repair/Repair";
 import { Space } from "../src/components/Space";
 import { Helmet } from "react-helmet";
 
@@ -12,21 +11,20 @@ import { Helmet } from "react-helmet";
 export function Sew() {
   return (
     <>
-      <Helmet>
-        <meta name="description" content="Ieškote siuvėjos Šiauliuose? Individualus suknelių, kelnių, kostiumėlių ir kitų drabužių siuvimas pagal Jūsų figūrą ir pageidavimus.Stilingi ir kokybiški drabužiai už patrauklią kainą." />
-        <title>Neringos Siuvimo Studija - Siuvykla</title>
-      </Helmet>
-      <Header />
-      <main className={style.merriweatherRegular}>
-        <div className={style.mainContainer}>
-          <SidebarMenu />
-          <Space />
-          <Sewing />
-          <Design />
-          <Repair />
-          <Footer />
-        </div>
-      </main>
+    <Helmet>
+    <meta name="description" content="Ieškote siuvėjos Šiauliuose? Individualus suknelių, kelnių, kostiumėlių ir kitų drabužių siuvimas pagal Jūsų figūrą ir pageidavimus.Stilingi ir kokybiški drabužiai už patrauklią kainą." />
+    <title>Neringos Siuvimo Studija - Siuvykla</title>
+    </Helmet>
+        <Header />
+    <main className={style.merriweatherRegular}>
+      <div className={style.mainContainer}>
+        <SidebarMenu />
+        <Space />
+        <Sewing />
+        <Design />
+        <Footer />
+      </div>
+    </main>
     </>
   )
 }

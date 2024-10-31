@@ -11,7 +11,7 @@ export function Pricing() {
   return (
     <>
       <Helmet>
-        <meta name="description" content="Drabužių taisymo kainos - kelnių palenkimas, užtrauktukų keitimas, trumpinimas, ilginimas, siaurinimas, pamušalo keitimas: Konkrečios paslaugos, kad klientai greičiau rastų reikiamą informaciją." />
+        <meta name="description" content="Drabužių taisymo kainos - kelnių palenkimas, džinsų palenkimas, užtrauktukų keitimas, trumpinimas, ilginimas, siaurinimas, pamušalo keitimas: Konkrečios paslaugos, kad klientai greičiau rastų reikiamą informaciją." />
         <title>Drabužių taisymo kainos Šiauliuose</title>
       </Helmet>
       <Header />
