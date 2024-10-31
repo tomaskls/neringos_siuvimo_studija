@@ -4,19 +4,24 @@ import { SidebarMenu } from "../src/components/sideMenu/SideMenu"
 import style from '../src/components/main/Main.module.css';
 import { Contacts } from "../src/components/contacts/Contacts";
 import { Space } from "../src/components/Space";
+import { Helmet } from "react-helmet";
 
 export function Contacting() {
   return (
     <>
-        <Header />
-    <main className={style.merriweatherRegular}>
-      <div className={style.mainContainer}>
-        <SidebarMenu />
-        <Space />
-        <Contacts />
-        <Footer />
-      </div>
-    </main>
+      <Helmet>
+        <meta name="description" content="Mus rasite adresu: Vytauto g. 8O Šiauliai. Skambinkite tel: +370 600 55316 " />
+        <title>Neringos Siuvimo Studija - Kontaktai</title>
+      </Helmet>
+      <Header />
+      <main className={style.merriweatherRegular}>
+        <div className={style.mainContainer}>
+          <SidebarMenu />
+          <Space />
+          <Contacts />
+          <Footer />
+        </div>
+      </main>
     </>
   )
 }

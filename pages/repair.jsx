@@ -7,11 +7,16 @@ import { Design } from "../src/components/design/Design";
 import { Sewing } from "../src/components/sewing/Sewing";
 import { New } from "../src/components/new_product/New";
 import { Space } from "../src/components/Space";
+import { Helmet } from "react-helmet";
 
 
 export function Repairing() {
   return (
     <>
+    <Helmet>
+    <meta name="description" content="Profesionalus drabužių taisymas ir pritaikymas - kelnių, sijonų, suknelių, švarkų, kostiumų,striukių, paltų, džinsų ir kitų drabužių trumpinimas, ilginimas, siaurinimas, pamušalo keitimas, užtrauktuko keitimas, sagų įsiuvimas, džinsų lopymas, darbo drabužių taisymas." />
+    <title>Rūbų Remonto Dirbtuvės</title>
+    </Helmet>
         <Header />
     <main className={style.merriweatherRegular}>
       <div className={style.mainContainer}>
