@@ -5,6 +5,7 @@ import style from '../src/components/main/Main.module.css';
 import { Header } from "../src/components/header/Header";
 import { Space } from "../src/components/Space";
 import { Helmet } from 'react-helmet';
+import { Services } from "../src/components/services/Services";
 
 export function Home() {
   return (
@@ -19,6 +20,7 @@ export function Home() {
           <SidebarMenu />
           <Space />
           <About />
+          <Services />
           <Footer />
         </div>
       </main>
