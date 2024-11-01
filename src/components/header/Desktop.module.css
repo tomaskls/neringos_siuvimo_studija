@@ -77,3 +77,11 @@
   border-color: aliceblue;
   transform: scale(1.15);
 }
+.link{
+  background-color: #654321;
+  min-width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+
+}
