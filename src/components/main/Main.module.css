@@ -8,7 +8,8 @@
     gap: 5px;
   }
   .space {
-    height: 65px;
+    height: 78px;
+    background-color: var(--back-color);
   }
 }
 @media (min-width: 761px) {
