@@ -34,7 +34,7 @@ export function NewProduct() {
                 <img className={style.img} src="/img/melynas_dzemperis.webp" alt="" />
                 <img className={style.img} src="/img/moteriskas_flisinis_dzemperis.webp" alt="" />
                 <img className={style.img} src="/img/pilkas_flisinis_dzemperis.webp" alt="" />
-                <img className={style.img} src="/img/vyriskas_dzemperis.webp" alt="" />
+                <img className={style.imgvyr} src="/img/vyriskas_dzemperis.webp" alt="" />
             </div>
         </>
     );

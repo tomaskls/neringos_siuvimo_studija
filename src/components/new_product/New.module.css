@@ -56,6 +56,9 @@
     width: 450px;
     height: 675px;
   }
+  .imgvyr{
+    display: none;
+  }
   .contentNewItems {
     display: flex;
     width: 400px;
