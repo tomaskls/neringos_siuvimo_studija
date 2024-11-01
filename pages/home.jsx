@@ -11,7 +11,7 @@ export function Home() {
   return (
     <>
       <Helmet>
-        <meta name="description" content="Profesionalios siuvimo paslaugos Šiauliuose. Siuvykla. Individualus siuvimas. Siuvimas pagal uzsakymą" />
+        <meta name="description" content="Profesionalios siuvimo paslaugos Šiauliuose. Siuvykla. Drabužių taisymas. Individualus siuvimas. Siuvimas pagal uzsakymą.Aplikacijos ant drabužių.Vienetinių lekalų konstravimas" />
         <title>Neringos Siuvimo Studija</title>
       </Helmet>
       <Header />

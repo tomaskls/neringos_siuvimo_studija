@@ -28,9 +28,9 @@
     font-weight: 700;
     color: var(--heading-color);
   }
-  .p {
-    line-height: 1.4;
-    text-align: justify;
+  .repairList li {
+    line-height: 1.5;
+    padding: 3px;
   }
   .svg {
     display: none;
@@ -56,7 +56,12 @@
     gap: 40px;
     line-height: 1.5;
   }
+  .repairList li{
+    padding: 3px;
+    font-size: 1.05rem;
+  }
   .svg {
-    display: none;
+    height: 100px;
+    width: 100px;
   }
 }

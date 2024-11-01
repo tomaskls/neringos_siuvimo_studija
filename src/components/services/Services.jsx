@@ -23,12 +23,11 @@ export function Services() {
             <div className={style.content}>
                 <h2 className={style.h2}>Teikiamos Paslaugos</h2>
                 <ul className={style.repairList}>
-                    <li><ScissorsIcon />Drabužių taisymas</li>
-                    <li><ScissorsIcon />Individualus siuvimas</li>
-                    <li><ScissorsIcon />Aplikacijos ant drabužių</li>
-                    <li><ScissorsIcon />Konsultacijos dėl drabužių modelio ir medžiagų pasirinkimo</li>
-                    <li><ScissorsIcon />Vienetinių lekalų konstravimas</li>
-                    
+                    <li><ScissorsIcon /> Drabužių taisymas</li>
+                    <li><ScissorsIcon /> Individualus siuvimas</li>
+                    <li><ScissorsIcon /> Aplikacijos ant drabužių</li>
+                    <li><ScissorsIcon /> Konsultacijos dėl drabužių modelio ir medžiagų pasirinkimo</li>
+                    <li><ScissorsIcon /> Vienetinių lekalų konstravimas</li>
                 </ul>
                 <div className={style.svg}><Siulai /></div>
             </div>
