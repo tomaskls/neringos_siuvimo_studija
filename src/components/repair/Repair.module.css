@@ -8,6 +8,8 @@
   .container {
     max-width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .img {
     max-width: 100%;
