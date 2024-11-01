@@ -60,7 +60,7 @@
   color: var(--text-color);
   border: 1px solid var(--text-color);
   border-radius: 15px;
-  padding: 5px 13px;
+  padding: 7px 16px;
   margin: 5px;
   font-size: 1em;
   cursor: pointer;
@@ -70,5 +70,5 @@
   background-color: #654321;
   color: #f1d8ab;
   border-color: aliceblue;
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
