@@ -1,6 +1,6 @@
 import style from './Contacts.module.css';
 import { useEffect } from 'react';
-// import { FbLink, InLink } from './SocialLinks';
+import { FbLink, InLink } from './SocialLinks';
 
 export function Contacts() {
     useEffect(() => {
@@ -10,14 +10,14 @@ export function Contacts() {
         <div className={style.contactsContainer} id="contacts">
             <div className={style.mainContainer}>
                 <div className={style.social}>
-                    {/* <FbLink />
-                    <InLink /> */}
+                    <FbLink />
+                    <InLink /> 
                 </div>
                 <div className={style.contacts}>
                     <h2>Kontaktai</h2>
                     <a href="tel:+37060055316">Skambinkite tel: +370 600 55316</a>
                     <p>Mus rasite adresu: <br />Vytauto g. 8O <br />Šiauliai</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
+                    {/* <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p> */}
                 </div>
             </div>
             <iframe
