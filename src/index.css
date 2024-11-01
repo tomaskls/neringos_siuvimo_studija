@@ -67,7 +67,7 @@ body h2 {
 body {
   background-color: white;
   font-family: "Merriweather", serif;
-  font-size: 400;
+  font-weight: 400;
   font-style: italic;
 }
 @media (min-width: 761px) {

@@ -21,7 +21,7 @@ export function Services() {
         <div id='repair' className={style.container}>
             <div><PictureRepair /></div>
             <div className={style.content}>
-                <h2 className={style.h2}>Teikiamos Paslaugos</h2>
+                <h2 className={style.h2}>Paslaugos</h2>
                 <ul className={style.repairList}>
                     <li><ScissorsIcon /> Drabužių taisymas</li>
                     <li><ScissorsIcon /> Individualus siuvimas</li>
