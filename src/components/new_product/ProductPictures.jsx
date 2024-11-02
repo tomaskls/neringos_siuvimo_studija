@@ -11,7 +11,7 @@ export const PictureMain = () => {
 export const Picture1 = () => {
     return (<picture >
         <source srcSet="/zalias_dzemperis_750.webp" media="(max-width: 780px)" />
-        <img width={900} height={1352} className={style.img} src="/img/zalias_dzemperis.webp" loading='lazy' alt="žalias džemperis" />
+        <img width={900} height={1352} className={style.img} src="/img/zalias_dzemperis.webp" alt="žalias džemperis" />
     </picture>
     )
 };
