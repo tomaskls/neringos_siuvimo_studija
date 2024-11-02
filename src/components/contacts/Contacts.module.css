@@ -108,4 +108,7 @@
     padding: 5px 13px;
     font-size: 1.1rem;
   }
+  .img{
+    display: none;
+  }
 }
