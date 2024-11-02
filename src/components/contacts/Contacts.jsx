@@ -11,7 +11,7 @@ export function Contacts() {
             <div className={style.mainContainer}>
                 <div className={style.social}>
                     <FbLink />
-                    <InLink /> 
+                    <InLink />
                 </div>
                 <div className={style.contacts}>
                     <h2>Kontaktai</h2>
