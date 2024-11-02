@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const PictureRepair = () => {
     return (<picture >
         <source srcSet="/pakabos_750.webp" media="(max-width: 780px)" />
-        <img className={style.img} src="/pakabos_750.webp" loading='lazy' alt="rūbų taisymas šiauliuose" />
+        <img width={1120} height={750} className={style.img} src="/pakabos_750.webp" loading='lazy' alt="rūbų taisymas šiauliuose" />
     </picture>
     )
 };
