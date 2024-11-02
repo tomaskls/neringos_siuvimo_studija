@@ -35,9 +35,7 @@
   .svg {
     display: none;
   }
-  .picture{
-    display: none;
-  }
+ 
 }
 @media (min-width: 761px) {
   .container {
