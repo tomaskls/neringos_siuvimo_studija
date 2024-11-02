@@ -19,7 +19,7 @@ export function Services() {
 
     return (
         <div id='repair' className={style.container}>
-            <div><PictureRepair /></div>
+            <div className={style.picture}><PictureRepair /></div>
             <div className={style.content}>
                 <h2 className={style.h2}>Paslaugos</h2>
                 <ul className={style.repairList}>
