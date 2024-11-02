@@ -52,6 +52,10 @@
   .touched {
     background-color: var(--heading-color);
   }
+  .img{
+    width: 100%;
+    height: auto;
+  }
 }
 @media (min-width: 761px) {
   .fbLink img {

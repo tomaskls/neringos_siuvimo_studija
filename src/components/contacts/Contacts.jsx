@@ -2,6 +2,13 @@ import style from './Contacts.module.css';
 import { useEffect } from 'react';
 import { FbLink, InLink } from './SocialLinks';
 
+const PictureCoffee = () => {
+    return (<picture >
+        <source srcSet="/kava_700.webp" media="(max-width: 780px)" />
+        <img width={900} height={1136} className={style.img} src="/kava_900.webp" alt="kavos pertraukele" />
+    </picture>
+    )
+};
 export function Contacts() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -18,17 +25,10 @@ export function Contacts() {
                     <a href="tel:+37060055316">Skambinkite tel: +370 600 55316</a>
                     <p>Mus rasite adresu: <br />Vytauto g. 8O <br />Šiauliai</p>
                     <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
-                    <p>Artimiausias nemokamas parkingas už 200 metrų - Rūdės g. 14 (Maxima)</p>
                 </div>
+            </div>
+            <div className={style.img}>
+                <PictureCoffee />
             </div>
             <iframe
                 className={style.map}
