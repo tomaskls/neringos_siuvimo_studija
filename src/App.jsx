@@ -7,10 +7,12 @@ import { Designing } from '../pages/design';
 import { Pricing } from '../pages/prices';
 import { Contacting } from '../pages/contacts';
 import { Gallery } from '../pages/gallery';
+import GoogleAnalytics from './googleAnalytics';
 
 export function App() {
   return (
     <>
+    <GoogleAnalytics />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
