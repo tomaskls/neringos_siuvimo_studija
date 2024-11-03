@@ -6,7 +6,6 @@ import { Repair } from "../src/components/repair/Repair";
 import { Space } from "../src/components/Space";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-
 export function Repairing() {
   return (
     <>

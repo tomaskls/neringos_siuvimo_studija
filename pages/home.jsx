@@ -7,7 +7,6 @@ import { Space } from "../src/components/Space";
 import { Services } from "../src/components/services/Services";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-
 export function Home() {
   return (
     <>

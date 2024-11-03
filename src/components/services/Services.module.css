@@ -35,7 +35,6 @@
   .svg {
     display: none;
   }
- 
 }
 @media (min-width: 761px) {
   .container {
@@ -57,12 +56,38 @@
     gap: 40px;
     line-height: 1.5;
   }
-  .repairList li{
+  .repairList li {
     padding: 3px;
     font-size: 1.05rem;
   }
   .svg {
     height: 100px;
     width: 100px;
+  }
+  @media (min-width: 761px) and (max-width: 1020px) {
+    .container {
+      gap: 50px;
+      padding-left: 5px;
+    }
+    .img {
+      width: 400px;
+      height: 525px;
+    }
+    .content {
+      width: 300px;
+    }
+  }
+  @media (min-width: 761px) and (max-width: 1020px) {
+    .container {
+      gap: 50px;
+      padding-left: 5px;
+    }
+    .img {
+      width: 400px;
+      height: 525px;
+    }
+    .content {
+      width: 300px;
+    }
   }
 }

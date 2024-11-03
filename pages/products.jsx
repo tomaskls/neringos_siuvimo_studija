@@ -6,7 +6,6 @@ import { Space } from "../src/components/Space";
 import { NewProduct } from "../src/components/new_product/Newproduct";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-
 export function Product() {
   return (
     <>

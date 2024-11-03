@@ -16,7 +16,6 @@
   .content2 {
     margin-left: 10px;
     padding-bottom: 30px;
-
   }
   .h2 {
     font-size: 1.5em;
@@ -78,5 +77,18 @@
   .svg {
     height: 100px;
     margin-top: 80px;
+  }
+  @media (min-width: 761px) and (max-width: 1020px) {
+    .content1 {
+      gap: 10px;
+      margin-left: 30px;
+    }
+    .content2 {
+      margin-left: 30px;
+    }
+    .img {
+      width: 330px;
+      height: 220px;
+    }
   }
 }

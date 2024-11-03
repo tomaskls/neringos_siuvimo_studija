@@ -57,7 +57,7 @@
     width: 450px;
     height: 675px;
   }
-  .imgvyr{
+  .imgvyr {
     display: none;
   }
   .contentNewItems {
@@ -91,5 +91,22 @@
   }
   .fotoContainer img {
     padding-top: 5px;
+  }
+  @media (min-width: 761px) and (max-width: 1020px) {
+    .container {
+      gap: 50px;
+      padding-left: 5px;
+    }
+    .img {
+      width: 400px;
+      height: 525px;
+    }
+    .content {
+      width: 300px;
+    }
+    .fotoContainer {
+      padding-left: 5px;
+      padding-right: 30px;
+    }
   }
 }
