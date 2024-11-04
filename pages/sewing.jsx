@@ -13,7 +13,7 @@ export function Sew() {
       <HelmetProvider>
         <Helmet>
           <meta name="description" content="Ieškote siuvėjos Šiauliuose? Individualus suknelių, kelnių, kostiumėlių ir kitų drabužių siuvimas pagal Jūsų figūrą ir pageidavimus.Stilingi ir kokybiški drabužiai už patrauklią kainą." />
-          <title>Neringos Siuvimo Studija - Siuvykla</title>
+          <title>Siuvykla Šiauliuose</title>
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>

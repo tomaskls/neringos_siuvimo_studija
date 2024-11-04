@@ -12,7 +12,7 @@ export function Product() {
       <HelmetProvider>
         <Helmet>
           <meta name="description" content="Sušilkite stilingai su unikaliais, pagal užsakymą siuvamais flisiniais džemperiais Šiauliuose! Rinkitės iš plataus vyriškų ir moteriškų modelių asortimento, pritaikykite dydį, spalvą ir detales. Užsisakykite ir mėgaukitės šiluma!" />
-          <title>Neringos Siuvimo Studija Džemperiai</title>
+          <title>Šilti flisiniai džemperiai</title>
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>

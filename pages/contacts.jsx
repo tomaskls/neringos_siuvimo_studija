@@ -12,7 +12,7 @@ export function Contacting() {
       <HelmetProvider>
         <Helmet>
           <meta name="description" content="Mus rasite adresu: Vytauto g. 8O Šiauliai. Skambinkite tel: +370 600 55316 " />
-          <title>Neringos Siuvimo Studija - Kontaktai</title>
+          <title>Kontaktai</title>
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>

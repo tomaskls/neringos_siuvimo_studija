@@ -11,7 +11,7 @@ export function Gallery() {
       <HelmetProvider>
         <Helmet>
           <meta name="description" content="Neringos Siuvimo Studijos galerija: Peržiūrėkite mūsų sukurtų drabužių nuotraukas. Įkvėpkite savo stilių!" />
-          <title>Neringos Siuvimo Studija - Galerija</title>
+          <title>Galerija</title>
         </Helmet>
         <Header />
         <SidebarMenu />
