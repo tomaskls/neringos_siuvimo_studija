@@ -8,9 +8,9 @@ function GoogleAnalytics() {
     script.src = "https://www.googletagmanager.com/gtag/js?id=G-1HRYBXDSTR";
     script.async = true;
 
-    script.onload = () => { // Svarbu: vykdyti tik po to, kai skriptas įkeltas
+    script.onload = () => { 
       window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);} // Pridėkite `window` prieš `dataLayer`
+      function gtag(){window.dataLayer.push(arguments);} 
       gtag('js', new Date());
       gtag('config', GOOGLE_ANALYTICS_ID);
     };
