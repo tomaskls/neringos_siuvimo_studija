@@ -1,10 +1,27 @@
 .contactsContainer {
   background-color: var(--back-color);
 }
+.hours{
+  width: 300px;
+  margin-left: 20px;
+}
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
 @media (max-width: 760px) {
   .contactsContainer {
     width: 100%;
     scroll-margin-top: 90px;
+  }
+  .hours{
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
   .fbLink {
     display: flex;
@@ -110,5 +127,10 @@
   }
   .img {
     display: none;
+  }
+  .parking{
+    margin-bottom: -10px;
+    margin-top: 30px;
+    margin-left: 20px;
   }
 }
