@@ -1,6 +1,6 @@
 import style from './Contacts.module.css';
 import { useEffect } from 'react';
-import { FbLink, InLink } from './SocialLinks';
+import { FbLink, InLink, PinLink } from './SocialLinks';
 
 const PictureCoffee = () => {
     return (<picture >
@@ -19,12 +19,13 @@ export function Contacts() {
                 <div className={style.social}>
                     <FbLink />
                     <InLink />
+                    <PinLink />
                 </div>
                 <div className={style.contacts}>
                     <h2>Kontaktai</h2>
                     <a href="tel:+37060055316">Skambinkite tel: +370 600 55316</a>
                     <p>Mus rasite adresu: <br />Vytauto g. 8O <br />Šiauliai</p>
-                    <p>Planuojate apsilankyti? Mums būtų malonu, jei prieš tai paskambintumėte. Taip galėsime užtikrinti, kad Jums nereikės laukti.</p>
+                    <p>Planuojate apsilankyti? Mums būtų malonu, jei prieš tai paskambintumėte.<br/>Taip galėsime užtikrinti, kad Jums nereikės laukti.</p>
                 </div>
             </div>
             <div className={style.hours}>

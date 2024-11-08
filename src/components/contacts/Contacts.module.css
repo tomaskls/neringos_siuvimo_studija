@@ -102,6 +102,7 @@
     padding-right: 30px;
   }
   .fbLink {
+    width: 300px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -115,6 +116,9 @@
     gap: 20px;
     padding-left: 20px;
     line-height: 1.5;
+  }
+  .contacts p:last-child{
+    margin-top: 20px;
   }
   .contacts a {
     width: 300px;

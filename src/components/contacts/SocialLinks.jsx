@@ -1,6 +1,7 @@
 import style from './Contacts.module.css';
 import Fbicon from '/facebook_icon.png';
 import Inicon from '/instagram_logo.webp';
+import Pinicon from '/Pinterest.svg.png'
 import { useTouch } from '../Usetouch';
 
 export function FbLink() {
@@ -24,6 +25,18 @@ export function InLink() {
             target="_blank"
             onTouchStart={handleInTouchStart}
             onTouchEnd={handleInTouchEnd}>Instagram<img src={Inicon} alt="instagram icon" />
+        </a>
+    )
+}
+export function PinLink() {
+    const { isTouched: isInTouched, handleTouchStart: handleInTouchStart, handleTouchEnd: handleInTouchEnd } = useTouch();
+
+    return (
+        <a className={`${style.fbLink} ${isInTouched ? style.touched : ''}`}
+            href="https://www.pinterest.com/neringossiuvimostudija/"
+            target="_blank"
+            onTouchStart={handleInTouchStart}
+            onTouchEnd={handleInTouchEnd}>Pinterest<img src={Pinicon} alt="pinterest icon" />
         </a>
     )
 }
