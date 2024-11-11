@@ -20,6 +20,7 @@ export function Home() {
           <meta property="og:image:width" content="1600" />
           <meta property="og:image:height" content="900" />
           <meta property="og:url" content="https://www.neringos-siuvimo-studija.lt" />
+          <meta property="og:site_name" content="Neringos Studija" />
           <meta property="og:type" content="website" />
         </Helmet>
         <Header />
