@@ -60,6 +60,9 @@
   .imgvyr {
     display: none;
   }
+  .h2{
+    font-size: 1.7em;
+  }
   .contentNewItems {
     display: flex;
     width: 400px;

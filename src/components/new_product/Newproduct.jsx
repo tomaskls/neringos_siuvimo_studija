@@ -16,7 +16,7 @@ export function NewProduct() {
                     <PictureMain />
                 </div>
                 <div className={style.contentNewItems}>
-                    <h2 className={style.h2}>Tapk savo džemperio dizaineriu!</h2>
+                    <h1 className={style.h2}>Tapk savo džemperio dizaineriu!</h1>
                     <p className={style.p}>Po kelionių per ledinius kalnus supratome, kad yra vienas dalykas, kurio lietuviams tikrai trūksta - flisinio jaukumo, kuris būtų nepamainomas drėgnomis ir vėsiomis dienomis. Dar geriau - mes leidžiame jums tapti savo džemperio dizaineriu! Galite rinktis dydį, spalvą ir netgi pritaikyti detales pagal savo norus – nuo kišenių vietos iki užtrauktuko dydžio!</p>
                     <div className={style.svg}><Smasina /></div>
                 </div>

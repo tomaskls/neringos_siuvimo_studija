@@ -22,7 +22,7 @@ export function Contacts() {
                     <PinLink />
                 </div>
                 <div className={style.contacts}>
-                    <h2>Kontaktai</h2>
+                    <h1>Kontaktai</h1>
                     <a href="tel:+37060055316">Skambinkite tel: +370 600 55316</a>
                     <p>Mus rasite adresu: <br />Vytauto g. 8O <br />Šiauliai</p>
                     <p>Planuojate apsilankyti? Mums būtų malonu, jei prieš tai paskambintumėte.<br/>Taip galėsime užtikrinti, kad Jums nereikės laukti.</p>

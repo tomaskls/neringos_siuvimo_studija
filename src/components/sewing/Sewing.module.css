@@ -55,6 +55,9 @@
   .svg {
     width: 100px;
   }
+  .h2{
+    font-size: 1.7em;
+  }
   @media (min-width: 761px) and (max-width: 1020px) {
     .container {
       gap: 50px;

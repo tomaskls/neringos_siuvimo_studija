@@ -19,7 +19,7 @@ export function Price() {
             <div className={style.content1}>
                 <div><PictureRepair /></div>
                 <div className={style.content}>
-                    <h2 className={style.h2}>Drabužių taisymo darbų kainoraštis</h2>
+                    <h1 className={style.h2}>Drabužių taisymo darbų kainoraštis</h1>
                     <div className={style.list}>
                         <h3 className={style.h3}>Kelnių trumpinimas :</h3>
                         <p className={style.p}>Džinsų trumpinimas - 10€</p>
