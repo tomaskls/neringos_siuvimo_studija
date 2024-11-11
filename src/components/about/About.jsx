@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 
 export const PictureAbout = () => {
     return (<picture >
-        <source srcSet="/siuvykla_siauliai_750.webp" media="(max-width: 780px)" />
-        <img width={750} height={1350} className={style.img} src="/siuvykla_siauliai_900.webp" alt="siuvykla siuvimo studija šiauliuose" />
+        <source srcSet="images/siuvykla_siauliai_750.webp" media="(max-width: 780px)" />
+        <img width={750} height={1350} className={style.img} src="images/siuvykla_siauliai_900.webp" alt="siuvykla siuvimo studija šiauliuose" />
     </picture>
     )
 };

@@ -1,7 +1,7 @@
 import style from './Contacts.module.css';
-import Fbicon from '/facebook_icon.png';
-import Inicon from '/instagram_logo.webp';
-import Pinicon from '/Pinterest.svg.png'
+import Fbicon from '/icons/facebook_icon.png';
+import Inicon from '/icons/instagram_logo.webp';
+import Pinicon from '/icons/Pinterest.svg.png'
 import { useTouch } from '../Usetouch';
 
 export function FbLink() {

@@ -4,8 +4,8 @@ import { FbLink, InLink, PinLink } from './SocialLinks';
 
 const PictureCoffee = () => {
     return (<picture >
-        <source srcSet="/kava_700.webp" media="(max-width: 780px)" />
-        <img width={900} height={1136} className={style.img} src="/kava_900.webp" alt="kavos pertraukele" />
+        <source srcSet="images/kava_700.webp" media="(max-width: 780px)" />
+        <img width={900} height={1136} className={style.img} src="images/kava_900.webp" alt="kavos pertraukele" />
     </picture>
     )
 };

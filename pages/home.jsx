@@ -12,8 +12,13 @@ export function Home() {
     <>
       <HelmetProvider>
         <Helmet>
-          <meta name="description" content="Profesionalios siuvimo paslaugos Šiauliuose. Siuvykla. Drabužių taisymas. Individualus siuvimas. Siuvimas pagal uzsakymą.Aplikacijos ant drabužių.Vienetinių lekalų konstravimas" />
           <title>Neringos Siuvimo Studija</title>
+          <meta name="description" content="Profesionalios siuvimo paslaugos Šiauliuose. Siuvykla. Drabužių taisymas. Individualus siuvimas. Siuvimas pagal uzsakymą.Aplikacijos ant drabužių.Vienetinių lekalų konstravimas" />
+          <meta property="og:title" content="Neringos Siuvimo Studija" />
+          <meta property="og:description" content="Profesionalios siuvimo paslaugos Šiauliuose. Siuvykla. Drabužių taisymas. Individualus siuvimas. Siuvimas pagal uzsakymą.Aplikacijos ant drabužių" />
+          <meta property="og:image" content="https://manowebs.lt/neringos_siuvimo_studija.webp" />
+          <meta property="og:url" content="https://www.neringos-studija-lt.lt" />
+          <meta property="og:type" content="website" />
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>

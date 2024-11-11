@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 
 const PictureRepair = () => {
     return (<picture >
-        <source srcSet="/pakabos_750.webp" media="(max-width: 780px)" />
-        <img width={1120} height={750} className={style.img} src="/pakabos_750.webp" loading='lazy' alt="rūbų taisymas šiauliuose" />
+        <source srcSet="images/pakabos_750.webp" media="(max-width: 780px)" />
+        <img width={1120} height={750} className={style.img} src="images/pakabos_750.webp" loading='lazy' alt="rūbų taisymas šiauliuose" />
     </picture>
     )
 };

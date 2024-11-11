@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 
 const PictureSewing = () => {
     return (<picture >
-        <source srcSet="/design_750.webp" media="(max-width: 780px)" />
-        <img width={900} height={1350} className={style.img} src="/design_900.webp" alt="moteriškų rūbų siuvykla" />
+        <source srcSet="images/design_750.webp" media="(max-width: 780px)" />
+        <img width={900} height={1350} className={style.img} src="images/design_900.webp" alt="moteriškų rūbų siuvykla" />
     </picture>
     )
 };
