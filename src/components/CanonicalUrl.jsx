@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+import { Helmet} from "react-helmet-async"; 
 
 const CanonicalUrl = () => {
   const canonicalUrl = 'https://www.neringos-siuvimo-studija.lt';
