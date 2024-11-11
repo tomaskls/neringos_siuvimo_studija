@@ -4,72 +4,71 @@
       { "handle": "filesystem" },
       { "src": "/[^.]+", "dest": "/index.html" }
     ],
-  
-    "redirects": [
-      {
-        "source": "http://www.neringossiuvimostudija.lt/:path*",
-        "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
-        "permanent": true,
-        "statusCode": 301
-      },
-      {
-        "source": "https://www.neringossiuvimostudija.lt/:path*",
-        "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
-        "permanent": true,
-        "statusCode": 301
-      },
-      {
-        "source": "http://www.neringos-siuvimo-studija.lt/:path*",
-        "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
-        "permanent": true,
-        "statusCode": 301
-      },
-      {
-        "source": "http://neringossiuvimostudija.lt/:path*",
-        "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
-        "permanent": true,
-        "statusCode": 301
-      },
-      {
-        "source": "https://neringossiuvimostudija.lt/:path*",
-        "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
-        "permanent": true,
-        "statusCode": 301
-      },
-      {
-        "source": "http://neringos-siuvimo-studija.lt/:path*",
-        "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
-        "permanent": true,
-        "statusCode": 301
-      },
-      {
-        "source": "https://neringos-siuvimo-studija.lt/:path*",
-        "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
-        "permanent": true,
-        "statusCode": 301
-      }
-    ],
-    "headers": [
-      {
-        "source": "/(.*)",
-        "headers": [
-          {
-            "key": "Strict-Transport-Security",
-            "value": "max-age=31536000; includeSubDomains"
-          },
-          {
-            "key": "X-Content-Type-Options",
-            "value": "nosniff"
-          },
-          {
-            "key": "X-Frame-Options",
-            "value": "DENY"
-          },
-          {
-            "key": "X-XSS-Protection",
-            "value": "1; mode=block"
-          }
-        ]
-      }
-    ]
-  }
+      "trailingSlash": false,
+      "cleanUrls": true,
+      "redirects": [
+        {
+          "source": "/:path*/index",
+          "destination": "/:path*",
+          "permanent": true
+        },
+        {
+          "source": "/:path*.html",
+          "destination": "/:path*",
+          "permanent": true
+        },
+        {
+          "has": [
+            {
+              "type": "host",
+              "value": "www.neringossiuvimostudija.lt"
+            }
+          ],
+          "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
+          "permanent": true
+        },
+        {
+          "has": [
+            {
+              "type": "host",
+              "value": "neringossiuvimostudija.lt"
+            }
+          ],
+          "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
+          "permanent": true
+        },
+        {
+          "has": [
+            {
+              "type": "host",
+              "value": "neringos-siuvimo-studija.lt"
+            }
+          ],
+          "destination": "https://www.neringos-siuvimo-studija.lt/:path*",
+          "permanent": true
+        }
+      ],
+      "headers": [
+        {
+          "source": "/(.*)",
+          "headers": [
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ]
+        }
+      ]
+    }
