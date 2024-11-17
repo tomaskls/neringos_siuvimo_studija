@@ -2,13 +2,7 @@
     "version": 2,
     "routes": [
       { "handle": "filesystem" },
-      { "src": "/[^.]+", "dest": "/index.html" },
+      { "src": "/[^.]+", "dest": "/index.html" }
    
-      {
-        "src": "/repair",
-        "status": 301,
-        "headers": { "Location": "/drabuziu-taisymas" },
-        "dest": "/drabuziu-taisymas"
-      }
     ]
     }

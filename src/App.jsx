@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Home } from '../pages/home';
 import { Product } from '../pages/products';
@@ -21,6 +21,7 @@ export function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/product" element={<Product />} />
+            <Route path="/repair" element={<Navigate to="/drabuziu-taisymas" replace state={{from: '/repair'}} />} />
             <Route path="/drabuziu-taisymas" element={<Repairing />} />
             <Route path="/sewing" element={<Sew />} />
             <Route path="/design" element={<Designing />} />
