@@ -2,10 +2,13 @@
     "version": 2,
     "routes": [
       { "handle": "filesystem" },
-      { "src": "/[^.]+", "dest": "/index.html" }
-    ],
-    "rewrites": [
-      { "source": "/repair", "destination": "/api/repair" }
-    ]
+      { "src": "/[^.]+", "dest": "/index.html" },
    
+      {
+        "src": "/repair",
+        "status": 301,
+        "headers": { "Location": "/taisom" },
+        "dest": "/taisom"
+      }
+    ]
     }
