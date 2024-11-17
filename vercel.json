@@ -7,8 +7,8 @@
       {
         "src": "/repair",
         "status": 301,
-        "headers": { "Location": "/taisom" },
-        "dest": "/taisom"
+        "headers": { "Location": "/drabuziu-taisymas" },
+        "dest": "/drabuziu-taisymas"
       }
     ]
     }
