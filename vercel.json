@@ -3,7 +3,7 @@
     "redirects": [
       {
         "source": "/repair",
-        "destination": "https://www.neringos-siuvimo-studija.lt/drabuziu-taisymas",
+        "destination": "/drabuziu-taisymas",
         "permanent": true
       }
     ]
