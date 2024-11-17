@@ -21,7 +21,7 @@ export function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/product" element={<Product />} />
-            <Route path="/repair" element={<Repairing />} />
+            <Route path="/drabuziu-taisymas" element={<Repairing />} />
             <Route path="/sewing" element={<Sew />} />
             <Route path="/design" element={<Designing />} />
             <Route path="/prices" element={<Pricing />} />

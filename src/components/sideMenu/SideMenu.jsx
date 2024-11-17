@@ -68,7 +68,7 @@ export const SidebarMenu = () => {
             </li>
             <li className={style.liGallery}>
               <Scissors />
-              <Link to="/repair">
+              <Link to="/drabuziu-taisymas">
                 <span onClick={closeMenu}>Taisymas</span>
               </Link>
             </li>

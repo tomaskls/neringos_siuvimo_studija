@@ -11,8 +11,16 @@ export function Product() {
     <>
       <HelmetProvider>
         <Helmet>
-          <meta name="description" content="Sušilkite stilingai su unikaliais, pagal užsakymą siuvamais flisiniais džemperiais Šiauliuose! Rinkitės iš plataus vyriškų ir moteriškų modelių asortimento, pritaikykite dydį, spalvą ir detales. Užsisakykite ir mėgaukitės šiluma!" />
+          <meta name="description" content="Sušilkite stilingai su unikaliais, pagal užsakymą siuvamais flisiniais džemperiais Šiauliuose! Rinkitės ir pritaikykite dydį, spalvą ir detales. Užsisakykite ir mėgaukitės šiluma!" />
           <title>Šilti flisiniai džemperiai</title>
+          <meta property="og:title" content="Šilti flisiniai džemperiai" />
+          <meta property="og:description" content="Sušilkite stilingai su unikaliais, pagal užsakymą siuvamais flisiniais džemperiais Šiauliuose! Rinkitės ir pritaikykite dydį, spalvą ir detales. Užsisakykite ir mėgaukitės šiluma!" />
+          <meta property="og:image" content="https://www.neringos-siuvimo-studija.lt/imgGallery/moteriskas_flisinis_dzemperis.webp" />
+          <meta property="og:image:width" content="896" />
+          <meta property="og:image:height" content="1346" />
+          <meta property="og:url" content="https://www.neringos-siuvimo-studija.lt/product" />
+          <meta property="og:site_name" content="Neringos Siuvimo Studija" />
+          <meta property="og:type" content="product" />
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>

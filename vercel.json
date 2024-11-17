@@ -3,6 +3,13 @@
     "routes": [
       { "handle": "filesystem" },
       { "src": "/[^.]+", "dest": "/index.html" }
+    ],
+    "redirects": [
+      {
+        "source": "/repair",
+        "destination": "https://www.neringos-siuvimo-studija.lt/drabuziu-taisymas",
+        "permanent": true
+      }
     ]
    
     }

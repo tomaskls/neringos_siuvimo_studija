@@ -37,7 +37,7 @@ export const HeaderD = () => {
                     <h2 ref={neringosRef} className={style.neringos}>Neringos Siuvimo Studija</h2>
                     <Link to="/" className={style.link} ><button className={style.navButton}>Studija</button></Link>
                     <Link to="/product"><button className={style.navButton}>Džemperiai</button></Link>
-                    <Link to="/repair"><button className={style.navButton}>Taisymas</button></Link>
+                    <Link to="/drabuziu-taisymas"><button className={style.navButton}>Taisymas</button></Link>
                     <Link to="/sewing"><button className={style.navButton}>Siuvimas</button></Link>
                     <Link to="/gallery"><button className={style.navButton}>Galerija</button></Link>
                     {/* <Link to="/design"><button className={style.navButton}>Pavyzdziai</button></Link> */}

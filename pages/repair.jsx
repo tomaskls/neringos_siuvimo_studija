@@ -11,8 +11,16 @@ export function Repairing() {
     <>
       <HelmetProvider>
         <Helmet>
-          <meta name="description" content="Profesionalus drabužių taisymas ir pritaikymas - kelnių, sijonų, suknelių, švarkų, kostiumų,striukių, paltų, džinsų ir kitų drabužių trumpinimas, ilginimas, siaurinimas, pamušalo keitimas, užtrauktuko keitimas, sagų įsiuvimas, džinsų lopymas, darbo drabužių taisymas." />
+          <meta name="description" content="Profesionalus drabužių taisymas  Šiauliuose.Trumpiname, ilginame, siauriname, keičiame užtrauktukus ir atliekame kitus remonto darbus. Užsukite ir suteikite savo drabužiams antrą gyvenimą!"/>
           <title>Rūbų Remonto Dirbtuvės</title>
+          <meta property="og:title" content="Rūbų Remonto Dirbtuvės" />
+          <meta property="og:description" content="Profesionalus drabužių taisymas  Šiauliuose.Trumpiname, ilginame, siauriname, keičiame užtrauktukus ir atliekame kitus remonto darbus. Užsukite ir suteikite savo drabužiams antrą gyvenimą!" />
+          <meta property="og:image" content="https://www.neringos-siuvimo-studija.lt/images/rubu_taisymas_900.webp" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="1350" />
+          <meta property="og:url" content="https://www.neringos-siuvimo-studija.lt/drabuziu-taisymas" />
+          <meta property="og:site_name" content="Neringos Siuvimo Studija" />
+          <meta property="og:type" content="local.business" />
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>

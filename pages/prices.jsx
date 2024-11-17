@@ -11,7 +11,7 @@ export function Pricing() {
     <>
       <HelmetProvider>
         <Helmet>
-          <meta name="description" content="Drabužių taisymo kainos - kelnių palenkimas, džinsų palenkimas, užtrauktukų keitimas, trumpinimas, ilginimas, siaurinimas, pamušalo keitimas: Konkrečios paslaugos, kad klientai greičiau rastų reikiamą informaciją." />
+          <meta name="description" content="Greitas ir profesionalus drabužių taisymas Šiauliuose. Kelnių palenkimas, užtrauktukų keitimas, siuvimas ir taisymas - konkurencingomis kainomis. Peržiūrėkite mūsų kainoraštį!" />
           <title>Drabužių taisymo kainos Šiauliuose</title>
         </Helmet>
         <Header />
