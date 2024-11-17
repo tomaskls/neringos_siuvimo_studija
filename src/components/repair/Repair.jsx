@@ -18,7 +18,7 @@ export function Repair() {
     }, []);
 
     return (
-        <div id='repair' className={style.container}>
+        <div id='drabuziu-taisymas' className={style.container}>
             <div><PictureRepair /></div>
             <div className={style.content}>
                 <h1 className={style.h2}>Rūbų Taisymas</h1>
