@@ -31,8 +31,7 @@ export function App() {
             <Route path="/drabuziu-taisymo-kainos" element={<Pricing />} />
             <Route path="/contacts" element={<Navigate to="/kontaktai" replace state={{from: '/contacts'}} />} />
             <Route path="/kontaktai" element={<Contacting />} />
-            <Route path="/gallery" element={<Gallery />
-            } />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </Router>
       </HelmetProvider>
