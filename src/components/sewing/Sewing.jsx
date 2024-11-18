@@ -15,7 +15,7 @@ export function Sewing() {
     }, []);
 
     return (
-        <div id='sewing' className={style.container}>
+        <div id='siuvykla' className={style.container}>
             <div><PictureSewing /></div>
             <div className={style.content}>
                 <h1 className={style.h2}>Ateik su idėja, išeik su drabužiu!</h1>

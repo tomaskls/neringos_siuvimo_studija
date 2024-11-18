@@ -13,6 +13,14 @@ export function Contacting() {
         <Helmet>
           <meta name="description" content="Mus rasite adresu: Vytauto g. 8O Šiauliai. Skambinkite tel: +370 600 55316 " />
           <title>Kontaktai</title>
+          <meta property="og:title" content="Kontaktai" />
+          <meta property="og:description" content="Mus rasite adresu: Vytauto g. 8O Šiauliai. Skambinkite tel: +370 600 55316" />
+          <meta property="og:image" content="https://www.neringos-siuvimo-studija.lt/imgGallery/suknele_su_ornamentais_2.webp" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="1354" />
+          <meta property="og:url" content="https://www.neringos-siuvimo-studija.lt/kontaktai" />
+          <meta property="og:site_name" content="Neringos Siuvimo Studija" />
+          <meta property="og:type" content="website" />
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>

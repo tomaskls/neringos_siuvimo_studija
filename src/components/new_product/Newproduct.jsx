@@ -11,7 +11,7 @@ export function NewProduct() {
     }, []);
     return (
         <>
-            <div id='new' className={style.container}>
+            <div id='flisiniai-dzemperiai' className={style.container}>
                 <div>
                     <PictureMain />
                 </div>

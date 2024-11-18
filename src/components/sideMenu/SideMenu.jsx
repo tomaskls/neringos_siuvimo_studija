@@ -74,13 +74,13 @@ export const SidebarMenu = () => {
             </li>
             <li className={style.liGallery}>
               <Scissors />
-              <Link to="/product">
+              <Link to="/flisiniai-dzemperiai">
                 <span onClick={closeMenu}>Džemperiai</span>
               </Link>
             </li>
             <li className={style.liGallery}>
               <Scissors />
-              <Link to="/sewing">
+              <Link to="siuvykla">
                 <span onClick={closeMenu}>Siuvimas</span>
               </Link>
             </li>
@@ -98,13 +98,13 @@ export const SidebarMenu = () => {
             </li>
             <li className={style.liGallery}>
               <Scissors />
-              <Link to="/prices">
+              <Link to="/drabuziu-taisymo-kainos">
                 <span onClick={closeMenu}>Kainos</span>
               </Link>
             </li>
             <li className={style.liGallery}>
               <Scissors />
-              <Link to="/contacts">
+              <Link to="/kontaktai">
                 <span onClick={closeMenu}>Kontaktai</span>
               </Link>
             </li>

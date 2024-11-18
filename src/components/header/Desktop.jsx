@@ -36,13 +36,13 @@ export const HeaderD = () => {
                 <div className={style.navContent}>
                     <h2 ref={neringosRef} className={style.neringos}>Neringos Siuvimo Studija</h2>
                     <Link to="/" className={style.link} ><button className={style.navButton}>Studija</button></Link>
-                    <Link to="/product"><button className={style.navButton}>Džemperiai</button></Link>
+                    <Link to="/flisiniai-dzemperiai"><button className={style.navButton}>Džemperiai</button></Link>
                     <Link to="/drabuziu-taisymas"><button className={style.navButton}>Taisymas</button></Link>
-                    <Link to="/sewing"><button className={style.navButton}>Siuvimas</button></Link>
+                    <Link to="/siuvykla"><button className={style.navButton}>Siuvimas</button></Link>
                     <Link to="/gallery"><button className={style.navButton}>Galerija</button></Link>
                     {/* <Link to="/design"><button className={style.navButton}>Pavyzdziai</button></Link> */}
-                    <Link to="/prices"><button className={style.navButton}>Kainos</button></Link>
-                    <Link to="/contacts"><button className={style.navButton}>Kontaktai</button></Link>
+                    <Link to="/drabuziu-taisymo-kainos"><button className={style.navButton}>Kainos</button></Link>
+                    <Link to="/kontaktai"><button className={style.navButton}>Kontaktai</button></Link>
                 </div>
             </nav>
         </header>

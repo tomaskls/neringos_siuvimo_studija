@@ -15,7 +15,7 @@ export function Price() {
     }, []);
 
     return (
-        <div id='price' className={style.container}>
+        <div id='drabuziu-taisymo-kainos' className={style.container}>
             <div className={style.content1}>
                 <div><PictureRepair /></div>
                 <div className={style.content}>
