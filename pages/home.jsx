@@ -6,11 +6,13 @@ import { Header } from "../src/components/header/Header";
 import { Space } from "../src/components/Space";
 import { Services } from "../src/components/services/Services";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import CanonicalUrl from "../src/components/CanonicalUrl";
 
 export function Home() {
   return (
     <>
       <HelmetProvider>
+        <CanonicalUrl />
         <Helmet>
           <title>Neringos Siuvimo Studija</title>
           <meta name="description" content="Profesionalios siuvimo paslaugos Šiauliuose. Siuvykla. Drabužių taisymas. Individualus siuvimas.Aplikacijos ant drabužių.Vienetinių lekalų konstravimas" />

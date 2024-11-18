@@ -5,11 +5,13 @@ import style from '../src/components/main/Main.module.css';
 import { Space } from "../src/components/Space";
 import { NewProduct } from "../src/components/new_product/Newproduct";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import CanonicalUrl from "../src/components/CanonicalUrl";
 
 export function Product() {
   return (
     <>
       <HelmetProvider>
+        <CanonicalUrl />
         <Helmet>
           <meta name="description" content="Sušilkite stilingai su unikaliais, pagal užsakymą siuvamais flisiniais džemperiais Šiauliuose! Rinkitės ir pritaikykite dydį, spalvą ir detales. Užsisakykite ir mėgaukitės šiluma!" />
           <title>Šilti flisiniai džemperiai</title>

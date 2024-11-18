@@ -9,14 +9,12 @@ import { Pricing } from '../pages/prices';
 import { Contacting } from '../pages/contacts';
 import { Gallery } from '../pages/gallery';
 import GoogleAnalytics from './googleAnalytics';
-import CanonicalUrl from './components/CanonicalUrl';
 
 export function App() {
   return (
     <>
       <HelmetProvider>
         <GoogleAnalytics />
-        <CanonicalUrl />
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />

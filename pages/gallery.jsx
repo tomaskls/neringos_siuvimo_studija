@@ -1,3 +1,4 @@
+import CanonicalUrl from "../src/components/CanonicalUrl"
 import { Footer } from "../src/components/footer/Footer"
 import { Pictures } from "../src/components/gallery/Gallery"
 import { Header } from "../src/components/header/Header"
@@ -9,6 +10,7 @@ export function Gallery() {
   return (
     <>
       <HelmetProvider>
+        <CanonicalUrl />
         <Helmet>
           <meta name="description" content="Neringos Siuvimo Studijos galerija: Peržiūrėkite mūsų sukurtų drabužių nuotraukas. Įkvėpkite savo stilių!" />
           <title>Neringos Siuvimo Studijos Galerija</title>

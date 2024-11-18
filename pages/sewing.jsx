@@ -6,11 +6,13 @@ import { Sewing } from "../src/components/sewing/Sewing";
 import { Design } from "../src/components/design/Design";
 import { Space } from "../src/components/Space";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import CanonicalUrl from "../src/components/CanonicalUrl";
 
 export function Sew() {
   return (
     <>
       <HelmetProvider>
+        <CanonicalUrl />
         <Helmet>
           <meta name="description" content="Ieškote siuvėjos Šiauliuose? Individualus suknelių, kelnių, kostiumėlių ir kitų drabužių siuvimas pagal Jūsų figūrą ir pageidavimus.Stilingi ir kokybiški drabužiai už patrauklią kainą." />
           <title>Siuvykla Šiauliuose</title>

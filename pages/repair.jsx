@@ -5,11 +5,13 @@ import style from '../src/components/main/Main.module.css';
 import { Repair } from "../src/components/repair/Repair";
 import { Space } from "../src/components/Space";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import CanonicalUrl from "../src/components/CanonicalUrl";
 
 export function Repairing() {
   return (
     <>
       <HelmetProvider>
+        <CanonicalUrl />
         <Helmet>
           <meta name="description" content="Profesionalus drabužių taisymas  Šiauliuose.Trumpiname, ilginame, siauriname, keičiame užtrauktukus ir atliekame kitus remonto darbus. Užsukite ir suteikite savo drabužiams antrą gyvenimą!"/>
           <title>Rūbų Remonto Dirbtuvės</title>

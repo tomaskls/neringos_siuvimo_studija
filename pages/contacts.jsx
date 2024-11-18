@@ -5,11 +5,13 @@ import style from '../src/components/main/Main.module.css';
 import { Contacts } from "../src/components/contacts/Contacts";
 import { Space } from "../src/components/Space";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import CanonicalUrl from "../src/components/CanonicalUrl";
 
 export function Contacting() {
   return (
     <>
       <HelmetProvider>
+        <CanonicalUrl />
         <Helmet>
           <meta name="description" content="Mus rasite adresu: Vytauto g. 8O Šiauliai. Skambinkite tel: +370 600 55316 " />
           <title>Kontaktai</title>
