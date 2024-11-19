@@ -9,8 +9,18 @@ import { Pricing } from '../pages/prices';
 import { Contacting } from '../pages/contacts';
 import { Gallery } from '../pages/gallery';
 import GoogleAnalytics from './googleAnalytics';
+import { useEffect } from 'react';
+   import TagManager from 'react-gtm-module';
+
 
 export function App() {
+
+  useEffect(() => {
+    const tagManagerArgs = {
+        gtmId: 'GTM-KKX37SJG'
+    };
+    TagManager.initialize(tagManagerArgs);
+}, []);
   return (
     <>
       <HelmetProvider>
