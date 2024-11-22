@@ -7,14 +7,9 @@
     height: auto;
     display: flex;
     flex-direction: column-reverse;
-    content-visibility: auto;
-    contain-intrinsic-size: 1px 5000px;
   }
   .img {
-    display: block;
-    aspect-ratio: 750/1350;
-    object-fit: contain;
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
   .content {
