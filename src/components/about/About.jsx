@@ -3,25 +3,12 @@ import style from './About.module.css';
 import { useEffect } from 'react';
 
 export const PictureAbout = () => {
-    return (<picture>
-        <source
-            srcSet="/images/siuvykla_siauliai_750.webp"
-            media="(max-width: 780px)"
-            type="image/webp"
-        />
-        <img
-            width={750}
-            height={1350}
-            className={style.img}
-            src="/images/siuvykla_siauliai_900.webp"
-            alt="siuvykla siuvimo studija šiauliuose"
-            loading="eager"
-            decoding="async"
-        />
+    return (<picture >
+        <source srcSet="images/siuvykla_siauliai_750.webp" media="(max-width: 780px)" />
+        <img width={750} height={1350} className={style.img} src="images/siuvykla_siauliai_900.webp" alt="siuvykla siuvimo studija šiauliuose" />
     </picture>
     )
 };
-
 export function About() {
     useEffect(() => {
         window.scrollTo(0, 0);

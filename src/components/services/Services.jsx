@@ -8,7 +8,7 @@ const ScissorsIcon = () => (
 const PictureServices = () => {
     return (<picture >
         <source srcSet="images/kelniu_palenkimas_700.webp" media="(max-width: 780px)" />
-        <img width={900} height={1350} className={style.img} src="images/kelniu_palenkimas_700.webp" alt="kelniu palenkimas šiauliuose" />
+        <img loading='lazy' width={900} height={1350} className={style.img} src="images/kelniu_palenkimas_700.webp" alt="kelniu palenkimas šiauliuose" />
     </picture>
     )
 };
