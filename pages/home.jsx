@@ -24,6 +24,14 @@ export function Home() {
           <meta property="og:url" content="https://www.neringos-siuvimo-studija.lt" />
           <meta property="og:site_name" content="Neringos Siuvimo Studija" />
           <meta property="og:type" content="website" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+          <link
+    rel="preload"
+    as="image"
+    href="/images/siuvykla_siauliai_750.webp"
+    type="image/webp"
+    media="(max-width: 760px)"
+  />
         </Helmet>
         <Header />
         <main className={style.merriweatherRegular}>
