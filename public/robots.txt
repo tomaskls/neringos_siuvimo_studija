@@ -1,3 +1,7 @@
 User-agent: *
-Allow: /
+Disallow: /repair
+Disallow: /product
+Disallow: /sewing
+Disallow: /prices
+Disallow: /contacts
 Sitemap: https://www.neringos-siuvimo-studija.lt/sitemap.xml
